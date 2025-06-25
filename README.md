@@ -1,217 +1,176 @@
-# 🚀 StockAI Pro - Plataforma Avanzada de Análisis Financiero con IA
+# 🚀 StockAI Pro - Análisis Masivo de Acciones
 
-![StockAI Pro](https://img.shields.io/badge/StockAI-Pro-blue?style=for-the-badge&logo=chart-line)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
-![Flask](https://img.shields.io/badge/Flask-2.3-000000?style=for-the-badge&logo=flask)
-![AI](https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=brain)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![React](https://img.shields.io/badge/react-18+-blue.svg)
 
-## 🌟 Descripción
+## 📋 Descripción
 
-**StockAI Pro** es una plataforma completa de análisis financiero con inteligencia artificial que analiza más de **5,128 acciones** en tiempo real. Combina análisis técnico avanzado, señales de IA, y herramientas profesionales de trading en una interfaz moderna y fácil de usar.
+StockAI Pro es una plataforma avanzada de análisis técnico de acciones que utiliza inteligencia artificial para analizar más de 1200+ símbolos de acciones y generar recomendaciones de trading para diferentes horizontes temporales.
 
-### 🎯 **URL de la Aplicación**
-**🔗 [https://xumclkjf.manus.space](https://xumclkjf.manus.space)**
+### ✨ Características Principales
 
-## ✨ Características Principales
+- 🔍 **Análisis Masivo**: Procesamiento de 1200+ símbolos de acciones
+- ⏰ **Horizontes Temporales**: Análisis para corto plazo (21 días) y largo plazo (3 meses)
+- 📊 **Dashboard Interactivo**: Visualización en tiempo real de señales y métricas
+- 🤖 **IA Avanzada**: Algoritmos de análisis técnico y detección de patrones
+- 📈 **Recomendaciones**: Sistema de señales BUY/SELL/HOLD con niveles de confianza
+- 🎯 **Top Oportunidades**: Identificación automática de las mejores oportunidades
 
-### ⚡ **Stock AI Signals**
-- **Sistema de señales automáticas** con análisis de 5,128 acciones
-- **89% precisión histórica** en predicciones
-- **Predicciones multi-temporales** con targets específicos
-- **Análisis de confianza** y gestión de riesgo
-- **+33% upside promedio** en próximos 3-5 meses
-
-### 🔍 **Screener Avanzado**
-- **6 filtros predefinidos** profesionales (Growth, Value, Momentum, AI Signals, etc.)
-- **Filtros personalizables** con 15+ criterios
-- **Selección múltiple** y acciones en lote
-- **Exportación de datos** en CSV
-- **Métricas en tiempo real**
-
-### 📈 **Lista de Acciones Mejorada**
-- **Tabla expandida** con 15+ columnas de datos
-- **Filas expandibles** con métricas técnicas y fundamentales
-- **Paginación avanzada** (10-100 por página)
-- **Comparación temporal** (1D, 1W, 1M, YTD)
-- **Filtros múltiples** y búsqueda instantánea
-
-### 📊 **Dashboard Profesional**
-- **Análisis completo** de 5,128 acciones
-- **Gráficos interactivos** de distribución y rendimiento
-- **Top oportunidades** identificadas por IA
-- **Estado del mercado** en tiempo real
-- **Métricas clave** actualizadas
-
-### ⚙️ **Configuración Completa**
-- **7 secciones** de configuración personalizables
-- **50+ opciones** de personalización
-- **Exportación/Importación** de configuración
-- **Temas personalizables** (dark/light)
-- **Configuración de trading** y notificaciones
-
-## 🛠️ Tecnologías Utilizadas
-
-### **Frontend**
-- **React 18** - Framework principal
-- **Vite** - Build tool y desarrollo
-- **Tailwind CSS** - Estilos y diseño
-- **Lucide Icons** - Iconografía
-- **Recharts** - Gráficos interactivos
-
-### **Backend**
-- **Flask** - API REST
-- **Python 3.11** - Lenguaje principal
-- **SQLite** - Base de datos
-- **Peewee ORM** - Mapeo objeto-relacional
-
-### **Inteligencia Artificial**
-- **Hugging Face Transformers** - Modelos de IA
-- **FinBERT** - Análisis de sentimiento financiero
-- **YOLOv8** - Detección de patrones técnicos
-- **Catalyst Score** - Sistema de puntuación propietario
-
-## 📁 Estructura del Proyecto
+## 🗂️ Estructura del Proyecto
 
 ```
-stock_recommendation_system/
-├── 📱 stockai-pro-advanced/          # Frontend React
-│   ├── src/
-│   │   ├── components/               # Componentes React
-│   │   ├── contexts/                 # Context API
-│   │   ├── hooks/                    # Custom hooks
-│   │   └── lib/                      # Utilidades
-│   ├── public/                       # Archivos estáticos
-│   └── dist/                         # Build de producción
-├── 🔧 stock_api/                     # Backend Flask
-│   └── src/
-│       └── main.py                   # API principal
-├── 📊 data/                          # Datos y análisis
-│   └── lightyear_stocks_complete_numbered.csv
-├── 🤖 models/                        # Modelos de IA
-├── 📚 docs/                          # Documentación
-└── 🧪 tests/                         # Tests
+StockAI-Pro/
+├── 📁 analysis/           # Módulos de análisis técnico
+│   ├── time_horizon_analyzer.py
+│   ├── batch_analyzer.py
+│   ├── massive_stock_analyzer.py
+│   └── ...
+├── 📁 api/                # Backend y APIs
+│   ├── stock_api/         # API principal
+│   ├── backend/           # Módulos del backend
+│   └── run_analysis_api.py
+├── 📁 data/               # Datos y resultados
+│   ├── lightyear_stocks_complete_numbered.csv
+│   ├── time_horizon_analysis_results.json
+│   └── results/
+├── 📁 docs/               # Documentación
+│   ├── GUIA_RAPIDA.md
+│   ├── ESPECIFICACIONES_TECNICAS.md
+│   └── ...
+├── 📁 frontend/           # Aplicación React
+│   └── stockai-pro-advanced/
+├── 📁 scripts/            # Scripts de utilidad
+│   ├── run_time_horizon_analysis.sh
+│   └── run_massive_analysis.sh
+└── README.md
 ```
 
 ## 🚀 Instalación y Configuración
 
-### **Prerrequisitos**
-- Node.js 18+
-- Python 3.11+
+### Requisitos Previos
+
+- Python 3.8+
+- Node.js 16+
 - npm o pnpm
 
-### **1. Clonar el Repositorio**
+### 1. Clonar el Repositorio
+
 ```bash
-git clone https://github.com/tu-usuario/stockai-pro.git
-cd stockai-pro
+git clone https://github.com/dalonsogomez/Cometagent-StockAI-Pro.git
+cd Cometagent-StockAI-Pro
 ```
 
-### **2. Configurar Frontend**
-```bash
-cd stockai-pro-advanced
-npm install
-npm run dev
-```
+### 2. Configurar Backend
 
-### **3. Configurar Backend**
 ```bash
-cd stock_api
+# Crear entorno virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+
+# Instalar dependencias Python
+cd api/stock_api
 pip install -r requirements.txt
-python src/main.py
 ```
 
-### **4. Build de Producción**
+### 3. Configurar Frontend
+
 ```bash
-cd stockai-pro-advanced
-npm run build
+# Ir al directorio del frontend
+cd frontend/stockai-pro-advanced
+
+# Instalar dependencias
+npm install --legacy-peer-deps
+# o usando pnpm
+pnpm install
 ```
 
-## 📊 Datos y Análisis
+## 🎯 Uso
 
-### **Fuente de Datos**
-- **5,128 acciones** de Lightyear
-- **Datos en tiempo real** con actualización cada 30 segundos
-- **Análisis técnico** automático (RSI, MACD, Bollinger Bands)
-- **Análisis fundamental** con métricas clave
+### Ejecutar Análisis Masivo
 
-### **Métricas del Sistema**
-- **1,785 STRONG_BUY** (34.8% del total)
-- **Score promedio: 73.0** (Catalyst Score IA)
-- **89% precisión histórica** en señales
-- **+33% upside promedio** en predicciones
+```bash
+# Ejecutar análisis completo
+./scripts/run_time_horizon_analysis.sh
 
-## 🎯 Funcionalidades Destacadas
-
-### **🧠 Inteligencia Artificial**
-- **Análisis automático** de patrones técnicos
-- **Detección de catalizadores** con YOLOv8
-- **Análisis de sentimiento** con FinBERT
-- **Predicciones multi-temporales** (1D, 1W, 1M, 3M)
-
-### **📈 Herramientas de Trading**
-- **Screener personalizable** con filtros avanzados
-- **Watchlist ilimitada** con seguimiento
-- **Sistema de alertas** automáticas
-- **Portfolio simulator** con métricas de riesgo
-
-### **🎨 Experiencia de Usuario**
-- **Tema dark profesional** optimizado
-- **Navegación fluida** entre secciones
-- **Responsive design** móvil/desktop
-- **Búsqueda global** instantánea
-
-## 📱 Capturas de Pantalla
-
-### Dashboard Principal
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Stock AI Signals
-![AI Signals](docs/screenshots/ai-signals.png)
-
-### Screener Avanzado
-![Screener](docs/screenshots/screener.png)
-
-## 🔧 API Endpoints
-
-### **Principales Endpoints**
+# O manualmente
+cd analysis
+python time_horizon_analyzer.py
 ```
-GET  /api/health              # Estado del sistema
-GET  /api/summary             # Resumen del mercado
-GET  /api/stocks              # Lista de acciones
-GET  /api/stocks/{symbol}     # Detalles de acción
-GET  /api/ai-signals          # Señales de IA
-GET  /api/screener            # Screener personalizado
+
+### Iniciar Frontend
+
+```bash
+cd frontend/stockai-pro-advanced
+npm run dev
+# o
+pnpm dev
 ```
+
+Acceder a: `http://localhost:5173`
+
+### Iniciar API (Opcional)
+
+```bash
+cd api/stock_api/src
+python main.py
+```
+
+## 📊 Funcionalidades
+
+### 🔍 Análisis Técnico
+
+- **RSI (Relative Strength Index)**: Identificación de sobrecompra/sobreventa
+- **MACD**: Análisis de momentum y tendencias
+- **Bandas de Bollinger**: Detección de volatilidad
+- **Medias Móviles**: Análisis de tendencias a corto y largo plazo
+- **Volumen**: Confirmación de movimientos de precio
+
+### 🎯 Horizontes Temporales
+
+#### Corto Plazo (≤ 21 días)
+- Análisis técnico intensivo
+- Señales de momentum
+- Oportunidades de swing trading
+
+#### Largo Plazo (≤ 3 meses)
+- Análisis fundamental combinado
+- Tendencias estructurales
+- Oportunidades de inversión
+
+### 📈 Dashboard Features
+
+- **Análisis en Tiempo Real**: Progreso visual del análisis masivo
+- **Top Oportunidades**: Las mejores señales por horizonte
+- **Métricas Clave**: Estadísticas de recomendaciones
+- **Filtros Avanzados**: Por recomendación, sector, riesgo
+- **Exportación**: Resultados en JSON/CSV
 
 ## 🤝 Contribución
 
 1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+2. Crear branch para feature (`git checkout -b feature/AmazingFeature`)
+3. Commit los cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push al branch (`git push origin feature/AmazingFeature`)
+5. Abrir Pull Request
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
-## 👥 Autores
+## 🔗 Enlaces
 
-- **StockAI Team** - *Desarrollo inicial* - [StockAI](https://github.com/stockai)
+- [Documentación Completa](./docs/DOCUMENTACION_COMPLETA.md)
+- [Guía Rápida](./docs/GUIA_RAPIDA.md)
+- [Especificaciones Técnicas](./docs/ESPECIFICACIONES_TECNICAS.md)
 
-## 🙏 Agradecimientos
+## 👨‍💻 Autor
 
-- **Lightyear** por proporcionar los datos de acciones
-- **Hugging Face** por los modelos de IA
-- **React Team** por el framework
-- **Tailwind CSS** por el sistema de diseño
-
-## 📞 Contacto
-
-- **Website**: [https://xumclkjf.manus.space](https://xumclkjf.manus.space)
-- **Email**: stockai@example.com
-- **GitHub**: [https://github.com/tu-usuario/stockai-pro](https://github.com/tu-usuario/stockai-pro)
+**Daniel Alonso Gómez**
+- GitHub: [@dalonsogomez](https://github.com/dalonsogomez)
 
 ---
 
-⭐ **¡Dale una estrella si te gusta el proyecto!** ⭐
-
+⭐ **¡No olvides dar una estrella al proyecto si te ha sido útil!**

@@ -48,6 +48,23 @@ env/
 venv/
 ENV/
 env.bak/
+
+# Logs and temporary files
+logs/*.log
+*.tmp
+*.temp
+
+# Data files (optional - comment out if you want to track them)
+# data/*.csv
+# data/*.json
+
+# Analysis results (keep local only)
+analysis_cache/
+temp_analysis/
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
 venv.bak/
 
 # Jupyter Notebook

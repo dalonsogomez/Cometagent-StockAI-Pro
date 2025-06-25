@@ -1,0 +1,33 @@
+{
+  "name": "stockai-pro",
+  "version": "2.0.0",
+  "description": "Plataforma avanzada de análisis técnico de acciones con IA",
+  "main": "frontend/stockai-pro-advanced/src/main.jsx",
+  "scripts": {
+    "dev": "cd frontend/stockai-pro-advanced && npm run dev",
+    "build": "cd frontend/stockai-pro-advanced && npm run build",
+    "preview": "cd frontend/stockai-pro-advanced && npm run preview",
+    "setup": "./setup.sh",
+    "analysis": "./scripts/run_time_horizon_analysis.sh",
+    "api": "cd api/stock_api/src && python main.py"
+  },
+  "keywords": [
+    "stock-analysis",
+    "trading",
+    "ai",
+    "react",
+    "python",
+    "technical-analysis",
+    "finance"
+  ],
+  "author": "Daniel Alonso Gómez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalonsogomez/Cometagent-StockAI-Pro.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  }
+}
