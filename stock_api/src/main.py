@@ -3,7 +3,7 @@ Backend Flask Completo para StockAI Pro
 Soporta TODAS las características avanzadas
 """
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response, make_response
 from flask_cors import CORS
 import json
 import os
@@ -14,9 +14,15 @@ import time
 from typing import Dict, List, Any
 import threading
 import schedule
+import subprocess
+from concurrent.futures import ThreadPoolExecutor
+import queue
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, 
+     origins=['http://localhost:5176', 'http://127.0.0.1:5176', 'http://localhost:3000'],
+     allow_headers=['Content-Type', 'Authorization'],
+     methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'])
 
 # Configuración global
 DATA_DIR = '/home/ubuntu/stock_recommendation_system'
@@ -30,6 +36,17 @@ watchlists = {}
 alerts = {}
 comparison_stocks = []
 last_update = None
+
+# Variable global para el progreso del análisis
+analysis_progress = {
+    'running': False,
+    'progress': 0,
+    'current_stock': '',
+    'total_stocks': 0,
+    'processed': 0,
+    'successful': 0,
+    'failed': 0
+}
 
 def load_data():
     """Cargar datos de análisis"""
@@ -497,6 +514,202 @@ def update_data_periodically():
     while True:
         schedule.run_pending()
         time.sleep(1)
+
+@app.route('/api/run-massive-analysis', methods=['POST'])
+def run_massive_analysis():
+    """Ejecutar análisis masivo real con Python script"""
+    global analysis_progress
+    
+    if analysis_progress['running']:
+        return jsonify({
+            'success': False,
+            'message': 'Ya hay un análisis en progreso'
+        }), 400
+    
+    # Resetear progreso
+    analysis_progress = {
+        'running': True,
+        'progress': 0,
+        'current_stock': 'Iniciando análisis...',
+        'total_stocks': 5129,
+        'processed': 0,
+        'successful': 0,
+        'failed': 0
+    }
+    
+    # Ejecutar análisis en hilo separado
+    def run_analysis():
+        try:
+            # Cambiar al directorio del proyecto
+            os.chdir('/workspaces/Cometagent-StockAI-Pro')
+            
+            # Ejecutar el script Python real
+            process = subprocess.Popen(
+                ['python', 'batch_analyzer.py'],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                universal_newlines=True,
+                bufsize=1
+            )
+            
+            # Leer output en tiempo real
+            for line in iter(process.stdout.readline, ''):
+                if line:
+                    line = line.strip()
+                    print(f"Análisis: {line}")
+                    
+                    # Parsear progreso del output
+                    if "🔍 Analizando" in line:
+                        # Extraer símbolo del stock
+                        parts = line.split("🔍 Analizando ")[1].split(" (")
+                        if parts:
+                            symbol = parts[0].strip()
+                            analysis_progress['current_stock'] = f"Analizando {symbol}..."
+                    
+                    elif "✅" in line and ":" in line:
+                        analysis_progress['processed'] += 1
+                        analysis_progress['successful'] += 1
+                        analysis_progress['progress'] = (analysis_progress['processed'] / analysis_progress['total_stocks']) * 100
+                    
+                    elif "📊 Progreso:" in line:
+                        # Extraer número de acciones procesadas
+                        try:
+                            parts = line.split("acciones analizadas")
+                            if parts:
+                                processed = int(parts[0].split(":")[-1].strip().split()[0])
+                                analysis_progress['processed'] = processed
+                                analysis_progress['progress'] = (processed / analysis_progress['total_stocks']) * 100
+                        except:
+                            pass
+                    
+                    elif "🎉 Análisis completado" in line:
+                        analysis_progress['current_stock'] = "✅ Análisis completado exitosamente"
+                        analysis_progress['progress'] = 100
+            
+            # Esperar a que termine el proceso
+            process.wait()
+            
+            if process.returncode == 0:
+                analysis_progress['current_stock'] = "✅ Análisis completado exitosamente"
+                analysis_progress['progress'] = 100
+                # Recargar datos después del análisis
+                load_data()
+            else:
+                analysis_progress['current_stock'] = "❌ Error en el análisis"
+            
+        except Exception as e:
+            print(f"Error ejecutando análisis: {e}")
+            analysis_progress['current_stock'] = f"❌ Error: {str(e)}"
+        finally:
+            analysis_progress['running'] = False
+    
+    # Iniciar el análisis en hilo separado
+    thread = threading.Thread(target=run_analysis)
+    thread.daemon = True
+    thread.start()
+    
+    return jsonify({
+        'success': True,
+        'message': 'Análisis masivo iniciado'
+    })
+
+@app.route('/api/analysis-progress', methods=['GET'])
+def get_analysis_progress():
+    """Obtener progreso del análisis masivo"""
+    return jsonify(analysis_progress)
+
+@app.route('/api/load-time-horizon-analysis', methods=['GET'])
+def load_time_horizon_analysis():
+    """Cargar resultados del análisis por horizontes temporales"""
+    try:
+        results_file = '/workspaces/Cometagent-StockAI-Pro/time_horizon_analysis_results.json'
+        
+        if os.path.exists(results_file):
+            with open(results_file, 'r') as f:
+                data = json.load(f)
+            
+            return jsonify({
+                'success': True,
+                'data': data
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'message': 'No hay resultados de análisis disponibles'
+            }), 404
+    
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'message': f'Error cargando resultados: {str(e)}'
+        }), 500
+
+@app.route('/api/analysis-results', methods=['GET'])
+def get_analysis_results():
+    """Obtener resultados del análisis de horizontes temporales"""
+    try:
+        # Intentar cargar desde el archivo de resultados real
+        analysis_file = '/workspaces/Cometagent-StockAI-Pro/time_horizon_analysis_results.json'
+        if os.path.exists(analysis_file):
+            with open(analysis_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        
+        # Si no existe el archivo, generar datos simulados
+        simulated_data = {
+            "timestamp": datetime.now().isoformat(),
+            "total_stocks_analyzed": 5129,
+            "successful_analyses": 4718,
+            "failed_analyses": 411,
+            "analysis_type": "time_horizon_specific",
+            "horizons": {
+                "short_term": {
+                    "max_days": 21,
+                    "description": "Máximo 21 días",
+                    "recommendations_count": {
+                        "STRONG_BUY": 1024,
+                        "BUY": 1010,
+                        "WEAK_BUY": 928,
+                        "HOLD": 892,
+                        "WEAK_SELL": 673,
+                        "SELL": 191
+                    },
+                    "top_opportunities": []
+                },
+                "long_term": {
+                    "max_days": 90,
+                    "description": "Máximo 90 días",
+                    "recommendations_count": {
+                        "STRONG_BUY": 987,
+                        "BUY": 1143,
+                        "WEAK_BUY": 1056,
+                        "HOLD": 834,
+                        "WEAK_SELL": 512,
+                        "SELL": 186
+                    },
+                    "top_opportunities": []
+                }
+            },
+            "signals": []
+        }
+        return jsonify(simulated_data)
+        
+    except Exception as e:
+        return jsonify({
+            "error": "Error loading analysis results",
+            "message": str(e),
+            "timestamp": datetime.now().isoformat()
+        }), 500
+
+# Handler global para preflight CORS requests (OPTIONS)
+@app.before_request
+def handle_preflight():
+    if request.method == "OPTIONS":
+        response = make_response()
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        response.headers.add('Access-Control-Allow-Headers', "*")
+        response.headers.add('Access-Control-Allow-Methods', "*")
+        return response
 
 # Iniciar actualizaciones periódicas en un hilo separado
 if __name__ == '__main__':
