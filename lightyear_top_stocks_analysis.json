@@ -1,0 +1,477 @@
+{
+  "analysis_date": "2025-06-13T20:01:09.236986",
+  "source": "Lightyear Top Stocks",
+  "total_analyzed": 10,
+  "results": [
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "sector": "Automotive",
+      "market_cap": "0.8B",
+      "dividend_yield": "0.00%",
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 98.0,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.47,
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 37.8,
+        "macd": 2.58,
+        "bollinger_position": "Lower",
+        "volume_trend": "High"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 92.6,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 80.6,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Triangle",
+          "confidence": 77.6,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 1.2,
+          "confidence": 87.8
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 1.4,
+          "confidence": 75.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 13.9,
+          "confidence": 68.4
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236689"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "sector": "Information Technology",
+      "market_cap": "3B",
+      "dividend_yield": "0.52%",
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 97.8,
+      "sentiment": "Positive",
+      "sentiment_score": 0.8,
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 53.2,
+        "macd": -0.48,
+        "bollinger_position": "Middle",
+        "volume_trend": "Normal"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 83.4,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 94.2,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 0.9,
+          "confidence": 88.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 3.6,
+          "confidence": 84.9
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 7.2,
+          "confidence": 73.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236518"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Class A",
+      "sector": "Interactive Media & Services",
+      "market_cap": "2.1B",
+      "dividend_yield": "0.48%",
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92.7,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.64,
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 49.6,
+        "macd": -0.58,
+        "bollinger_position": "Upper",
+        "volume_trend": "High"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 87.5,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 76.9,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.7,
+          "confidence": 88.1
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 7.3,
+          "confidence": 83.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 5.7,
+          "confidence": 60.6
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236564"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "sector": "Software",
+      "market_cap": "3.6B",
+      "dividend_yield": "0.69%",
+      "recommendation": "BUY",
+      "catalyst_score": 88.2,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.42,
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 74.7,
+        "macd": 1.42,
+        "bollinger_position": "Upper",
+        "volume_trend": "Low"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 81.3,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 1.5,
+          "confidence": 78.8
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 3.1,
+          "confidence": 75.1
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 11.4,
+          "confidence": 69.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236431"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "market_cap": "1.2B",
+      "dividend_yield": "0.92%",
+      "recommendation": "BUY",
+      "catalyst_score": 83.6,
+      "sentiment": "Positive",
+      "sentiment_score": 0.74,
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 59.3,
+        "macd": 1.27,
+        "bollinger_position": "Upper",
+        "volume_trend": "High"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 91.9,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 1.6,
+          "confidence": 84.1
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 5.6,
+          "confidence": 72.7
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 11.3,
+          "confidence": 67.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236637"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Class C",
+      "sector": "Interactive Media & Services",
+      "market_cap": "2.1B",
+      "dividend_yield": "0.47%",
+      "recommendation": "BUY",
+      "catalyst_score": 77.0,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.59,
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": 0.76,
+        "bollinger_position": "Lower",
+        "volume_trend": "Normal"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 91.8,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 1.0,
+          "confidence": 80.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 2.5,
+          "confidence": 80.4
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 7.5,
+          "confidence": 65.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236590"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "sector": "Broadline Retail",
+      "market_cap": "2.3B",
+      "dividend_yield": "0.00%",
+      "recommendation": "BUY",
+      "catalyst_score": 75.7,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.55,
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 79.0,
+        "macd": 2.18,
+        "bollinger_position": "Lower",
+        "volume_trend": "High"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bull Flag",
+          "confidence": 92.1,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 1.6,
+          "confidence": 89.7
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 3.1,
+          "confidence": 73.9
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 13.5,
+          "confidence": 79.1
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236541"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "sector": "Interactive Media & Services",
+      "market_cap": "1.7B",
+      "dividend_yield": "0.30%",
+      "recommendation": "HOLD",
+      "catalyst_score": 71.3,
+      "sentiment": "Negative",
+      "sentiment_score": 0.35,
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 42.6,
+        "macd": 2.71,
+        "bollinger_position": "Lower",
+        "volume_trend": "Normal"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 76.6,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Triangle",
+          "confidence": 75.3,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 1.0,
+          "confidence": 87.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 2.4,
+          "confidence": 76.6
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 8.4,
+          "confidence": 80.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236611"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Information Technology",
+      "market_cap": "3.5B",
+      "dividend_yield": "0.03%",
+      "recommendation": "HOLD",
+      "catalyst_score": 65.0,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.41,
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 52.7,
+        "macd": 2.65,
+        "bollinger_position": "Middle",
+        "volume_trend": "Low"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 86.1,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Double Bottom",
+          "confidence": 85.9,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Breakout",
+          "confidence": 91.5,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 1.2,
+          "confidence": 84.4
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 5.5,
+          "confidence": 80.9
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 2.6,
+          "confidence": 61.8
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236480"
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "sector": "Financial Services",
+      "market_cap": "1.1B",
+      "dividend_yield": "0.00%",
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 47.9,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.45,
+      "confidence": "low",
+      "technical_indicators": {
+        "rsi": 70.9,
+        "macd": -0.35,
+        "bollinger_position": "Lower",
+        "volume_trend": "Low"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Breakout",
+          "confidence": 79.2,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 91.4,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.0,
+          "confidence": 83.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 2.1,
+          "confidence": 80.4
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 7.7,
+          "confidence": 65.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T20:01:09.236660"
+    }
+  ]
+}

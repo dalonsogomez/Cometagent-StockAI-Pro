@@ -1,0 +1,2701 @@
+{
+  "analysis_date": "2025-06-13T21:35:21.282748",
+  "source": "Lightyear Complete Universe",
+  "total_stocks_in_csv": 5129,
+  "successfully_analyzed": 5128,
+  "analysis_time_seconds": 0.4,
+  "market_summary": {
+    "average_catalyst_score": 73.0,
+    "dominant_sentiment": "Neutral",
+    "sentiment_distribution": {
+      "Neutral": 1376,
+      "Very Positive": 1369,
+      "Negative": 1012,
+      "Positive": 1025,
+      "Very Negative": 346
+    },
+    "bullish_percentage": 55.4,
+    "bearish_percentage": 6.1,
+    "total_analyzed": 5128
+  },
+  "top_opportunities": [
+    {
+      "number": 3,
+      "symbol": "AAPL",
+      "name": "Apple",
+      "current_price": 268.91,
+      "price_change": 0.47,
+      "price_change_pct": 0.18,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.812,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 63.5,
+        "macd": -1.53,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 86.7,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Hammer",
+          "confidence": 81.4,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 83.0,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 10.6,
+          "confidence": 68.3
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 12.6,
+          "confidence": 64.9
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 21.4,
+          "confidence": 65.7
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 13.4,
+          "confidence": 51.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.870971"
+    },
+    {
+      "number": 5,
+      "symbol": "GOOGL",
+      "name": "Alphabet Class A",
+      "current_price": 10.08,
+      "price_change": 4.75,
+      "price_change_pct": 47.11,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Negative",
+      "sentiment_score": 0.295,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 49.9,
+        "macd": 0.09,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 89.2,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 92.6,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 81.2,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 11.1,
+          "confidence": 71.3
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 14.1,
+          "confidence": 74.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 3.2,
+          "confidence": 74.7
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 21.3,
+          "confidence": 66.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.871170"
+    },
+    {
+      "number": 25,
+      "symbol": "ABBV",
+      "name": "AbbVie",
+      "current_price": 94.04,
+      "price_change": -3.58,
+      "price_change_pct": -3.81,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.834,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 78.3,
+        "macd": 3.26,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Doji",
+          "confidence": 75.0,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 80.8,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Hammer",
+          "confidence": 86.4,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 11.7,
+          "confidence": 63.1
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 16.7,
+          "confidence": 70.0
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 18.5,
+          "confidence": 79.0
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 6.1,
+          "confidence": 64.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.872634"
+    },
+    {
+      "number": 26,
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "current_price": 266.71,
+      "price_change": 0.88,
+      "price_change_pct": 0.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.792,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 25.2,
+        "macd": 0.13,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 12.9,
+          "confidence": 60.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 9.1,
+          "confidence": 68.0
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 21.3,
+          "confidence": 69.2
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 5.3,
+          "confidence": 60.7
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.872704"
+    },
+    {
+      "number": 27,
+      "symbol": "KO",
+      "name": "Coca-Cola",
+      "current_price": 326.64,
+      "price_change": 2.48,
+      "price_change_pct": 0.76,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.914,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 35.9,
+        "macd": -1.22,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 84.0,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 1.0,
+          "confidence": 74.7
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 20.1,
+          "confidence": 59.7
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 12.8,
+          "confidence": 60.0
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 33.8,
+          "confidence": 58.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.872772"
+    },
+    {
+      "number": 53,
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "current_price": 220.61,
+      "price_change": -3.19,
+      "price_change_pct": -1.45,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.636,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 33.0,
+        "macd": -1.47,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Hammer",
+          "confidence": 75.7,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 71.3,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 95.1,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 3.4,
+          "confidence": 76.6
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 13.2,
+          "confidence": 70.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 12.9,
+          "confidence": 73.6
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 32.0,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.874632"
+    },
+    {
+      "number": 57,
+      "symbol": "OR",
+      "name": "L'Oreal",
+      "current_price": 471.29,
+      "price_change": -3.65,
+      "price_change_pct": -0.77,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.93,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 47.7,
+        "macd": -1.88,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 73.8,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Hammer",
+          "confidence": 91.1,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 0.8,
+          "confidence": 69.3
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 8.1,
+          "confidence": 59.1
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 15.8,
+          "confidence": 58.6
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 9.1,
+          "confidence": 65.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.874901"
+    },
+    {
+      "number": 60,
+      "symbol": "SHEL",
+      "name": "Shell",
+      "current_price": 226.52,
+      "price_change": 1.22,
+      "price_change_pct": 0.54,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.521,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 34.0,
+        "macd": -2.41,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 93.8,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 74.5,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 87.5,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 13.7,
+          "confidence": 62.9
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 9.2,
+          "confidence": 68.0
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 8.9,
+          "confidence": 75.0
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 6.7,
+          "confidence": 63.6
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.875112"
+    },
+    {
+      "number": 62,
+      "symbol": "VZ",
+      "name": "Verizon",
+      "current_price": 411.95,
+      "price_change": 1.89,
+      "price_change_pct": 0.46,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.489,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 59.4,
+        "macd": -1.27,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 6.2,
+          "confidence": 82.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 10.7,
+          "confidence": 75.7
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 24.0,
+          "confidence": 72.6
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 22.0,
+          "confidence": 63.1
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.875244"
+    },
+    {
+      "number": 64,
+      "symbol": "PEP",
+      "name": "PepsiCo",
+      "current_price": 331.69,
+      "price_change": -2.51,
+      "price_change_pct": -0.76,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.7,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 68.3,
+        "macd": -2.54,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 82.4,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 70.9,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 97.8,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 9.3,
+          "confidence": 87.6
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 8.7,
+          "confidence": 76.4
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 22.6,
+          "confidence": 52.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 4.7,
+          "confidence": 51.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.875401"
+    },
+    {
+      "number": 80,
+      "symbol": "SCHW",
+      "name": "Charles Schwab",
+      "current_price": 260.84,
+      "price_change": 0.07,
+      "price_change_pct": 0.03,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.874,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 76.8,
+        "macd": 1.65,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 11.2,
+          "confidence": 83.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 5.1,
+          "confidence": 65.8
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 8.0,
+          "confidence": 70.6
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 24.6,
+          "confidence": 70.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.876885"
+    },
+    {
+      "number": 85,
+      "symbol": "BA",
+      "name": "Boeing",
+      "current_price": 179.48,
+      "price_change": 3.17,
+      "price_change_pct": 1.77,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.752,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 45.1,
+        "macd": 2.58,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 7.9,
+          "confidence": 85.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 13.8,
+          "confidence": 61.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 12.2,
+          "confidence": 60.9
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 21.9,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.877412"
+    },
+    {
+      "number": 87,
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "current_price": 142.49,
+      "price_change": 3.53,
+      "price_change_pct": 2.48,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.45,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 28.5,
+        "macd": 0.07,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Descending Triangle",
+          "confidence": 85.8,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bear Flag",
+          "confidence": 92.0,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.8,
+          "confidence": 77.7
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 12.3,
+          "confidence": 83.8
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 15.9,
+          "confidence": 72.0
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 20.3,
+          "confidence": 61.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.877650"
+    },
+    {
+      "number": 104,
+      "symbol": "SPOT",
+      "name": "Spotify",
+      "current_price": 296.05,
+      "price_change": -4.85,
+      "price_change_pct": -1.64,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.901,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 46.9,
+        "macd": -2.24,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 97.3,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 8.0,
+          "confidence": 83.4
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 19.0,
+          "confidence": 56.8
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 15.0,
+          "confidence": 65.1
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 34.4,
+          "confidence": 65.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.878930"
+    },
+    {
+      "number": 108,
+      "symbol": "APP",
+      "name": "AppLovin",
+      "current_price": 462.86,
+      "price_change": 0.93,
+      "price_change_pct": 0.2,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.854,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 60.6,
+        "macd": 1.97,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 86.1,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 83.1,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 4.3,
+          "confidence": 84.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 11.8,
+          "confidence": 73.6
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 4.2,
+          "confidence": 50.8
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 33.8,
+          "confidence": 71.2
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.879200"
+    },
+    {
+      "number": 111,
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "current_price": 76.48,
+      "price_change": -4.69,
+      "price_change_pct": -6.13,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.938,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 71.2,
+        "macd": 1.6,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 73.3,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 81.6,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 12.2,
+          "confidence": 67.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 5.8,
+          "confidence": 68.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 1.3,
+          "confidence": 52.7
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 33.6,
+          "confidence": 60.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.879414"
+    },
+    {
+      "number": 127,
+      "symbol": "SAN",
+      "name": "Santander Group",
+      "current_price": 67.9,
+      "price_change": -0.32,
+      "price_change_pct": -0.47,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.948,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 57.2,
+        "macd": -1.1,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 8.0,
+          "confidence": 81.9
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 17.4,
+          "confidence": 80.4
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 3.2,
+          "confidence": 66.3
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 6.3,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.881613"
+    },
+    {
+      "number": 128,
+      "symbol": "TD",
+      "name": "TD Bank",
+      "current_price": 203.6,
+      "price_change": -2.7,
+      "price_change_pct": -1.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.889,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": -1.79,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Top",
+          "confidence": 86.5,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bear Flag",
+          "confidence": 92.5,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 14.1,
+          "confidence": 64.1
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 20.3,
+          "confidence": 61.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 9.6,
+          "confidence": 57.5
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 7.6,
+          "confidence": 58.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.881683"
+    },
+    {
+      "number": 131,
+      "symbol": "MMC",
+      "name": "Marsh & McLennan",
+      "current_price": 212.32,
+      "price_change": -1.58,
+      "price_change_pct": -0.75,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.884,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 58.2,
+        "macd": -1.68,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bear Flag",
+          "confidence": 87.0,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 14.2,
+          "confidence": 61.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 11.9,
+          "confidence": 74.7
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 15.5,
+          "confidence": 68.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 34.0,
+          "confidence": 70.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.881889"
+    },
+    {
+      "number": 139,
+      "symbol": "KKR",
+      "name": "KKR & Co",
+      "current_price": 142.49,
+      "price_change": 0.22,
+      "price_change_pct": 0.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.861,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 51.1,
+        "macd": 0.25,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 83.1,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Doji",
+          "confidence": 78.2,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 7.0,
+          "confidence": 71.5
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 8.4,
+          "confidence": 72.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 23.5,
+          "confidence": 59.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 3.9,
+          "confidence": 71.2
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.882424"
+    },
+    {
+      "number": 141,
+      "symbol": "BX",
+      "name": "The Blackstone Group",
+      "current_price": 91.2,
+      "price_change": 2.23,
+      "price_change_pct": 2.45,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100.0,
+      "sentiment": "Positive",
+      "sentiment_score": 0.716,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 79.3,
+        "macd": -1.06,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 80.5,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 13.0,
+          "confidence": 60.6
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 13.9,
+          "confidence": 64.1
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 25.0,
+          "confidence": 79.2
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 19.4,
+          "confidence": 57.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.882557"
+    },
+    {
+      "number": 150,
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange",
+      "current_price": 295.83,
+      "price_change": -0.14,
+      "price_change_pct": -0.05,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.522,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 76.3,
+        "macd": 2.94,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 86.6,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 92.6,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 83.8,
+          "signal": "Bearish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 5.5,
+          "confidence": 82.5
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 17.1,
+          "confidence": 66.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 29.0,
+          "confidence": 57.1
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 19.3,
+          "confidence": 51.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.883173"
+    },
+    {
+      "number": 152,
+      "symbol": "MO",
+      "name": "Altria",
+      "current_price": 115.04,
+      "price_change": -1.03,
+      "price_change_pct": -0.9,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.663,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 54.1,
+        "macd": -0.31,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 90.3,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 82.2,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 82.7,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 8.7,
+          "confidence": 82.6
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 14.9,
+          "confidence": 67.8
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 20.7,
+          "confidence": 67.0
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 17.2,
+          "confidence": 74.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.883306"
+    },
+    {
+      "number": 154,
+      "symbol": "RIO",
+      "name": "Rio Tinto",
+      "current_price": 48.29,
+      "price_change": -3.08,
+      "price_change_pct": -6.37,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.854,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 59.0,
+        "macd": -1.86,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 81.0,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Double Top",
+          "confidence": 95.3,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Double Top",
+          "confidence": 73.6,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 10.0,
+          "confidence": 72.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 11.1,
+          "confidence": 67.0
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 19.6,
+          "confidence": 74.1
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 21.3,
+          "confidence": 52.7
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.883469"
+    },
+    {
+      "number": 155,
+      "symbol": "MSTR",
+      "name": "MicroStrategy",
+      "current_price": 334.46,
+      "price_change": 1.1,
+      "price_change_pct": 0.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.856,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 69.5,
+        "macd": 3.83,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 87.3,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 97.9,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 6.0,
+          "confidence": 61.6
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 3.0,
+          "confidence": 63.0
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 25.5,
+          "confidence": 54.8
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 28.2,
+          "confidence": 73.8
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.883540"
+    },
+    {
+      "number": 161,
+      "symbol": "SMFG",
+      "name": "Sumitomo Mitsui Financial",
+      "current_price": 143.74,
+      "price_change": -0.1,
+      "price_change_pct": -0.07,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.857,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 76.2,
+        "macd": 2.94,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 10.0,
+          "confidence": 73.6
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 15.5,
+          "confidence": 64.4
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 28.4,
+          "confidence": 75.9
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 24.8,
+          "confidence": 56.1
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.883953"
+    },
+    {
+      "number": 166,
+      "symbol": "UBS",
+      "name": "UBS",
+      "current_price": 181.87,
+      "price_change": 0.43,
+      "price_change_pct": 0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.86,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 44.3,
+        "macd": 0.07,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 4.1,
+          "confidence": 63.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 16.0,
+          "confidence": 60.9
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 20.1,
+          "confidence": 66.7
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 23.0,
+          "confidence": 65.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.884274"
+    },
+    {
+      "number": 173,
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "current_price": 132.89,
+      "price_change": -4.76,
+      "price_change_pct": -3.58,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.554,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 45.6,
+        "macd": -0.72,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 75.5,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 95.6,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 12.0,
+          "confidence": 86.4
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 7.4,
+          "confidence": 55.6
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 28.7,
+          "confidence": 56.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 6.0,
+          "confidence": 57.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.884758"
+    },
+    {
+      "number": 184,
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "current_price": 218.37,
+      "price_change": -0.59,
+      "price_change_pct": -0.27,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.666,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 37.7,
+        "macd": -0.12,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Hammer",
+          "confidence": 71.0,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 11.3,
+          "confidence": 86.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 10.9,
+          "confidence": 78.8
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 9.2,
+          "confidence": 55.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 1.8,
+          "confidence": 59.3
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.885502"
+    },
+    {
+      "number": 188,
+      "symbol": "ELV",
+      "name": "Elevance Health",
+      "current_price": 221.56,
+      "price_change": -1.49,
+      "price_change_pct": -0.67,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 83.4,
+        "macd": -0.33,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 85.2,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Double Top",
+          "confidence": 73.1,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bull Flag",
+          "confidence": 94.9,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.9,
+          "confidence": 65.1
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 14.5,
+          "confidence": 83.9
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 25.0,
+          "confidence": 61.7
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 1.7,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.885796"
+    },
+    {
+      "number": 193,
+      "symbol": "RACE",
+      "name": "Ferrari",
+      "current_price": 302.56,
+      "price_change": -3.38,
+      "price_change_pct": -1.12,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.948,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 54.1,
+        "macd": 0.65,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 92.5,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 94.1,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 6.4,
+          "confidence": 78.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 16.7,
+          "confidence": 56.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 21.6,
+          "confidence": 50.6
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 13.7,
+          "confidence": 69.2
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.886160"
+    },
+    {
+      "number": 205,
+      "symbol": "ORLY",
+      "name": "O'Reilly Automotive",
+      "current_price": 445.24,
+      "price_change": 2.57,
+      "price_change_pct": 0.58,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Negative",
+      "sentiment_score": 0.392,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 68.3,
+        "macd": -2.15,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 95.0,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 93.5,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 79.8,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 13.4,
+          "confidence": 86.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 10.0,
+          "confidence": 79.4
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 25.8,
+          "confidence": 72.4
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 24.0,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.886975"
+    },
+    {
+      "number": 216,
+      "symbol": "RIO",
+      "name": "Rio Tinto",
+      "current_price": 444.39,
+      "price_change": -1.19,
+      "price_change_pct": -0.27,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.842,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 81.5,
+        "macd": 1.22,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 9.2,
+          "confidence": 73.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 19.1,
+          "confidence": 59.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 21.2,
+          "confidence": 69.5
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 28.0,
+          "confidence": 60.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.887732"
+    },
+    {
+      "number": 226,
+      "symbol": "RR",
+      "name": "Rolls-Royce Holdings",
+      "current_price": 179.99,
+      "price_change": -0.88,
+      "price_change_pct": -0.49,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.641,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 35.8,
+        "macd": -2.04,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Descending Triangle",
+          "confidence": 96.5,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 90.8,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 9.4,
+          "confidence": 75.3
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 4.5,
+          "confidence": 68.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 24.3,
+          "confidence": 55.3
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 14.5,
+          "confidence": 54.1
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.888406"
+    },
+    {
+      "number": 231,
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "current_price": 28.45,
+      "price_change": 0.25,
+      "price_change_pct": 0.87,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.769,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 67.4,
+        "macd": 3.24,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Double Bottom",
+          "confidence": 83.3,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 84.4,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 4.5,
+          "confidence": 74.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 10.2,
+          "confidence": 63.9
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 8.6,
+          "confidence": 63.3
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 34.5,
+          "confidence": 54.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.888765"
+    },
+    {
+      "number": 236,
+      "symbol": "PNC",
+      "name": "PNC Financial",
+      "current_price": 120.7,
+      "price_change": 1.92,
+      "price_change_pct": 1.59,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.902,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 58.3,
+        "macd": 0.23,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 90.2,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.2,
+          "confidence": 71.3
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 4.0,
+          "confidence": 81.0
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 18.2,
+          "confidence": 52.9
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 10.0,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.889103"
+    },
+    {
+      "number": 237,
+      "symbol": "DG",
+      "name": "Vinci",
+      "current_price": 84.09,
+      "price_change": 4.44,
+      "price_change_pct": 5.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.676,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 37.9,
+        "macd": 1.6,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 10.4,
+          "confidence": 63.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 18.9,
+          "confidence": 68.2
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 6.9,
+          "confidence": 66.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 26.0,
+          "confidence": 62.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.889168"
+    },
+    {
+      "number": 239,
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "current_price": 188.18,
+      "price_change": 3.67,
+      "price_change_pct": 1.95,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.412,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 35.9,
+        "macd": 2.45,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 81.4,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Head & Shoulders",
+          "confidence": 78.6,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 14.1,
+          "confidence": 76.2
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 1.6,
+          "confidence": 59.0
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 26.3,
+          "confidence": 72.9
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 3.6,
+          "confidence": 68.2
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.889304"
+    },
+    {
+      "number": 240,
+      "symbol": "PYPL",
+      "name": "PayPal",
+      "current_price": 48.98,
+      "price_change": 3.94,
+      "price_change_pct": 8.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.592,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 42.5,
+        "macd": -1.73,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 94.8,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 97.1,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Doji",
+          "confidence": 80.6,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 7.4,
+          "confidence": 76.6
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 7.4,
+          "confidence": 79.7
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 22.1,
+          "confidence": 68.0
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 5.6,
+          "confidence": 67.6
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.889371"
+    },
+    {
+      "number": 251,
+      "symbol": "CNQ",
+      "name": "Canadian Natural Resource",
+      "current_price": 457.97,
+      "price_change": 0.54,
+      "price_change_pct": 0.12,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.844,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 47.4,
+        "macd": -1.96,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Descending Triangle",
+          "confidence": 74.9,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 76.8,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 3.7,
+          "confidence": 69.9
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 17.9,
+          "confidence": 84.6
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 3.4,
+          "confidence": 72.6
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 2.7,
+          "confidence": 59.1
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.890126"
+    },
+    {
+      "number": 259,
+      "symbol": "MNST",
+      "name": "Monster",
+      "current_price": 266.78,
+      "price_change": -4.81,
+      "price_change_pct": -1.8,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.741,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 67.5,
+        "macd": 2.51,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Breakout Pattern",
+          "confidence": 85.8,
+          "signal": "Bearish"
+        },
+        {
+          "pattern": "Double Top",
+          "confidence": 95.2,
+          "signal": "Bullish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 1.5,
+          "confidence": 74.7
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 7.3,
+          "confidence": 65.5
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 24.8,
+          "confidence": 72.0
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 36.7,
+          "confidence": 52.4
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.890679"
+    },
+    {
+      "number": 264,
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "current_price": 311.69,
+      "price_change": -0.17,
+      "price_change_pct": -0.06,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.86,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 66.7,
+        "macd": -0.33,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 4.4,
+          "confidence": 88.3
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 13.1,
+          "confidence": 64.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 15.4,
+          "confidence": 76.8
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 25.3,
+          "confidence": 65.6
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.891038"
+    },
+    {
+      "number": 265,
+      "symbol": "GSK",
+      "name": "GlaxoSmithKline",
+      "current_price": 272.67,
+      "price_change": -4.9,
+      "price_change_pct": -1.8,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "sentiment_score": 0.632,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 32.4,
+        "macd": 3.3,
+        "bollinger_position": "Upper Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 7.5,
+          "confidence": 72.2
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 11.6,
+          "confidence": 62.1
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 2.7,
+          "confidence": 66.5
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 28.6,
+          "confidence": 55.2
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.891100"
+    },
+    {
+      "number": 274,
+      "symbol": "NEM",
+      "name": "Newmont",
+      "current_price": 176.97,
+      "price_change": -4.53,
+      "price_change_pct": -2.56,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.93,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 28.7,
+        "macd": -1.5,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 3.8,
+          "confidence": 74.9
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 5.5,
+          "confidence": 58.7
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 24.1,
+          "confidence": 53.6
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 22.2,
+          "confidence": 58.5
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.891723"
+    },
+    {
+      "number": 277,
+      "symbol": "NU",
+      "name": "Nu Holdings Ltd.",
+      "current_price": 33.82,
+      "price_change": -0.88,
+      "price_change_pct": -2.6,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.821,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 70.1,
+        "macd": 2.36,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Hammer",
+          "confidence": 85.9,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Triangle",
+          "confidence": 79.4,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 5.6,
+          "confidence": 77.8
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 15.6,
+          "confidence": 77.3
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 9.6,
+          "confidence": 71.3
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 6.0,
+          "confidence": 70.4
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.891930"
+    },
+    {
+      "number": 280,
+      "symbol": "NWG",
+      "name": "NatWest Group Plc ADS",
+      "current_price": 37.51,
+      "price_change": -3.25,
+      "price_change_pct": -8.68,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.477,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 26.6,
+        "macd": -2.2,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Cup & Handle",
+          "confidence": 83.1,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Bearish Engulfing",
+          "confidence": 78.0,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Ascending Triangle",
+          "confidence": 77.8,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 6.2,
+          "confidence": 78.0
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 12.0,
+          "confidence": 84.5
+        },
+        "1_month": {
+          "direction": "up",
+          "magnitude": 22.8,
+          "confidence": 76.3
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 32.7,
+          "confidence": 58.0
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.892212"
+    },
+    {
+      "number": 282,
+      "symbol": "COR",
+      "name": "Cencora",
+      "current_price": 195.9,
+      "price_change": -4.04,
+      "price_change_pct": -2.06,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Neutral",
+      "sentiment_score": 0.526,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 58.3,
+        "macd": -2.97,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 2.6,
+          "confidence": 60.6
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 3.1,
+          "confidence": 66.2
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 3.8,
+          "confidence": 50.9
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 30.7,
+          "confidence": 57.4
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.892430"
+    },
+    {
+      "number": 286,
+      "symbol": "NSC",
+      "name": "Norfolk Southern",
+      "current_price": 394.88,
+      "price_change": -3.54,
+      "price_change_pct": -0.9,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.778,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 38.7,
+        "macd": -2.39,
+        "bollinger_position": "Lower Band",
+        "volume_trend": "High Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Descending Triangle",
+          "confidence": 78.5,
+          "signal": "Neutral"
+        },
+        {
+          "pattern": "Double Bottom",
+          "confidence": 96.2,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Bullish Engulfing",
+          "confidence": 92.9,
+          "signal": "Bearish"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 11.0,
+          "confidence": 69.4
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 16.5,
+          "confidence": 79.7
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 14.9,
+          "confidence": 69.9
+        },
+        "3_months": {
+          "direction": "up",
+          "magnitude": 15.8,
+          "confidence": 50
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.892883"
+    },
+    {
+      "number": 291,
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "current_price": 257.54,
+      "price_change": 1.51,
+      "price_change_pct": 0.59,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Positive",
+      "sentiment_score": 0.754,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 48.4,
+        "macd": -1.96,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Normal Volume"
+      },
+      "patterns_detected": [],
+      "predictions": {
+        "1_day": {
+          "direction": "up",
+          "magnitude": 6.7,
+          "confidence": 71.8
+        },
+        "1_week": {
+          "direction": "down",
+          "magnitude": 9.9,
+          "confidence": 69.5
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 27.5,
+          "confidence": 68.8
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 9.1,
+          "confidence": 52.8
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.893423"
+    },
+    {
+      "number": 294,
+      "symbol": "MFC",
+      "name": "Manulife Financial",
+      "current_price": 440.87,
+      "price_change": 1.83,
+      "price_change_pct": 0.42,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Very Negative",
+      "sentiment_score": 0.236,
+      "confidence": "very_high",
+      "technical_indicators": {
+        "rsi": 26.9,
+        "macd": -0.06,
+        "bollinger_position": "Middle Band",
+        "volume_trend": "Low Volume"
+      },
+      "patterns_detected": [
+        {
+          "pattern": "Triangle",
+          "confidence": 84.3,
+          "signal": "Bullish"
+        },
+        {
+          "pattern": "Inverse Head & Shoulders",
+          "confidence": 72.8,
+          "signal": "Neutral"
+        }
+      ],
+      "predictions": {
+        "1_day": {
+          "direction": "down",
+          "magnitude": 11.2,
+          "confidence": 62.8
+        },
+        "1_week": {
+          "direction": "up",
+          "magnitude": 8.5,
+          "confidence": 72.9
+        },
+        "1_month": {
+          "direction": "down",
+          "magnitude": 5.2,
+          "confidence": 79.5
+        },
+        "3_months": {
+          "direction": "down",
+          "magnitude": 26.4,
+          "confidence": 74.9
+        }
+      },
+      "analysis_timestamp": "2025-06-13T21:35:20.893753"
+    }
+  ],
+  "sector_analysis": {
+    "TECH": {
+      "count": 10,
+      "average_catalyst_score": 80.3,
+      "recommendation_distribution": {
+        "HOLD": 2,
+        "STRONG_BUY": 5,
+        "WEAK_HOLD": 1,
+        "BUY": 2
+      },
+      "top_stock": "AAPL"
+    },
+    "CONSUMER": {
+      "count": 11,
+      "average_catalyst_score": 67.4,
+      "recommendation_distribution": {
+        "STRONG_BUY": 4,
+        "WEAK_HOLD": 3,
+        "SELL": 1,
+        "HOLD": 2,
+        "BUY": 1
+      },
+      "top_stock": "COST"
+    },
+    "OTHER": {
+      "count": 5075,
+      "average_catalyst_score": 73.0,
+      "recommendation_distribution": {
+        "STRONG_BUY": 1764,
+        "HOLD": 1063,
+        "SELL": 313,
+        "WEAK_HOLD": 888,
+        "BUY": 1047
+      },
+      "top_stock": "PLTR"
+    },
+    "FINANCE": {
+      "count": 10,
+      "average_catalyst_score": 81.3,
+      "recommendation_distribution": {
+        "BUY": 2,
+        "STRONG_BUY": 5,
+        "WEAK_HOLD": 2,
+        "HOLD": 1
+      },
+      "top_stock": "MS"
+    },
+    "ENERGY": {
+      "count": 10,
+      "average_catalyst_score": 72.1,
+      "recommendation_distribution": {
+        "STRONG_BUY": 3,
+        "HOLD": 4,
+        "WEAK_HOLD": 2,
+        "BUY": 1
+      },
+      "top_stock": "OXY"
+    },
+    "HEALTHCARE": {
+      "count": 12,
+      "average_catalyst_score": 72.5,
+      "recommendation_distribution": {
+        "BUY": 2,
+        "STRONG_BUY": 4,
+        "WEAK_HOLD": 3,
+        "HOLD": 3
+      },
+      "top_stock": "ABBV"
+    }
+  },
+  "recommendation_distribution": {
+    "HOLD": {
+      "count": 1075,
+      "percentage": 21.0
+    },
+    "STRONG_BUY": {
+      "count": 1785,
+      "percentage": 34.8
+    },
+    "WEAK_HOLD": {
+      "count": 899,
+      "percentage": 17.5
+    },
+    "BUY": {
+      "count": 1055,
+      "percentage": 20.6
+    },
+    "SELL": {
+      "count": 314,
+      "percentage": 6.1
+    }
+  }
+}

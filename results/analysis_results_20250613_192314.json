@@ -1,0 +1,7358 @@
+{
+  "timestamp": "2025-06-13T19:23:14.752986",
+  "total_stocks_analyzed": 200,
+  "successful_analyses": 200,
+  "failed_analyses": 0,
+  "market_summary": {
+    "average_catalyst_score": 62.9,
+    "bullish_percentage": 42.0,
+    "bearish_percentage": 18.0,
+    "positive_sentiment_percentage": 42.0,
+    "market_mood": "Bullish"
+  },
+  "top_opportunities": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "timestamp": "2025-06-13T19:23:14.737819",
+      "current_price": 470.17,
+      "price_change": -4.79,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": 1.189,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7385890696544972
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7280543965256185
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Class C",
+      "timestamp": "2025-06-13T19:23:14.738336",
+      "current_price": 258.34,
+      "price_change": -3.99,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 24.2,
+        "macd": 1.589,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9345995145167789
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "timestamp": "2025-06-13T19:23:14.739318",
+      "current_price": 285.34,
+      "price_change": -4.63,
+      "price_change_pct": -1.6,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.3,
+        "macd": 2.165,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7222553153630756
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8796746470298573
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris",
+      "timestamp": "2025-06-13T19:23:14.740485",
+      "current_price": 418.68,
+      "price_change": 3.61,
+      "price_change_pct": 0.87,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.8,
+        "macd": 1.555,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7147437161345993
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "timestamp": "2025-06-13T19:23:14.740806",
+      "current_price": 337.49,
+      "price_change": -3.43,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.1,
+        "macd": 0.909,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7128043950175217
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's",
+      "timestamp": "2025-06-13T19:23:14.741531",
+      "current_price": 155.64,
+      "price_change": -0.36,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.9,
+        "macd": 0.283,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7158692262099314
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8839887502413872
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SIE",
+      "name": "Siemens",
+      "timestamp": "2025-06-13T19:23:14.743647",
+      "current_price": 146.91,
+      "price_change": -0.42,
+      "price_change_pct": -0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.7,
+        "macd": 0.398,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7531555478028411
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8244220488275756
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific",
+      "timestamp": "2025-06-13T19:23:14.746096",
+      "current_price": 277.19,
+      "price_change": 0.9,
+      "price_change_pct": 0.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.7,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7783898765250292
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7421702136215433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "timestamp": "2025-06-13T19:23:14.746539",
+      "current_price": 409.6,
+      "price_change": 4.78,
+      "price_change_pct": 1.18,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.0,
+        "macd": 1.1,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7831353537224073
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7217955319484541
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "timestamp": "2025-06-13T19:23:14.748080",
+      "current_price": 216.15,
+      "price_change": -4.98,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.6,
+        "macd": 1.135,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8549728892689149
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR & Co",
+      "timestamp": "2025-06-13T19:23:14.748160",
+      "current_price": 439.87,
+      "price_change": -4.47,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 34.4,
+        "macd": 0.624,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.9294561808006052
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8533749197454398
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "timestamp": "2025-06-13T19:23:14.748622",
+      "current_price": 317.82,
+      "price_change": 0.49,
+      "price_change_pct": 0.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.5,
+        "macd": 0.665,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7728906176816642
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7527723417016791
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BTI",
+      "name": "British American Tobacco",
+      "timestamp": "2025-06-13T19:23:14.749957",
+      "current_price": 88.17,
+      "price_change": 4.75,
+      "price_change_pct": 5.69,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 32.9,
+        "macd": 1.156,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.717977649226991
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7668851103347596
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BAM",
+      "name": "Brookfield Asset Management",
+      "timestamp": "2025-06-13T19:23:14.750469",
+      "current_price": 299.31,
+      "price_change": -0.69,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.7,
+        "macd": 1.634,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8260696762961515
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9200804942381934
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "timestamp": "2025-06-13T19:23:14.751420",
+      "current_price": 259.81,
+      "price_change": 2.25,
+      "price_change_pct": 0.88,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.5,
+        "macd": 1.839,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7546511931071925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's",
+      "timestamp": "2025-06-13T19:23:14.751712",
+      "current_price": 321.06,
+      "price_change": 3.15,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 33.0,
+        "macd": 1.157,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.849828470006091
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm",
+      "timestamp": "2025-06-13T19:23:14.752203",
+      "current_price": 277.98,
+      "price_change": 1.59,
+      "price_change_pct": 0.58,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.7,
+        "macd": 0.95,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7704189051257118
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7846673760978482
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "timestamp": "2025-06-13T19:23:14.746379",
+      "current_price": 93.55,
+      "price_change": -4.62,
+      "price_change_pct": -4.71,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 98,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.5,
+        "macd": 1.287,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7982174929667629
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere",
+      "timestamp": "2025-06-13T19:23:14.745465",
+      "current_price": 153.25,
+      "price_change": -0.02,
+      "price_change_pct": -0.02,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 97,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 62.3,
+        "macd": 1.984,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8393189008721612
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "timestamp": "2025-06-13T19:23:14.740061",
+      "current_price": 72.23,
+      "price_change": 4.82,
+      "price_change_pct": 7.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 96,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.0,
+        "macd": 1.045,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8872755508435914
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9399901862608548
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "timestamp": "2025-06-13T19:23:14.741174",
+      "current_price": 248.39,
+      "price_change": -4.5,
+      "price_change_pct": -1.78,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 95,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.2,
+        "macd": 1.458,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9126591439551858
+        }
+      ],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "SMFG",
+      "name": "Sumitomo Mitsui Financial",
+      "timestamp": "2025-06-13T19:23:14.749751",
+      "current_price": 73.29,
+      "price_change": 4.82,
+      "price_change_pct": 7.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 94,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.1,
+        "macd": 0.18,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.720497088422553
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7507947152629955
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "timestamp": "2025-06-13T19:23:14.750134",
+      "current_price": 414.42,
+      "price_change": -1.3,
+      "price_change_pct": -0.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 93,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 67.1,
+        "macd": 1.916,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8437573428943533
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9487861446234449
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
+      "timestamp": "2025-06-13T19:23:14.738784",
+      "current_price": 225.0,
+      "price_change": 3.03,
+      "price_change_pct": 1.37,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 40.6,
+        "macd": 0.663,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8127769845599611
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "timestamp": "2025-06-13T19:23:14.739672",
+      "current_price": 430.67,
+      "price_change": 0.81,
+      "price_change_pct": 0.19,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.0,
+        "macd": 1.824,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.784776926880677
+        }
+      ],
+      "sector": "Consumer Goods"
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike",
+      "timestamp": "2025-06-13T19:23:14.751018",
+      "current_price": 78.08,
+      "price_change": -4.13,
+      "price_change_pct": -5.03,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.2,
+        "macd": 0.582,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil",
+      "timestamp": "2025-06-13T19:23:14.739558",
+      "current_price": 501.2,
+      "price_change": 1.59,
+      "price_change_pct": 0.32,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 72.5,
+        "macd": 2.267,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8446286237221972
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8693094052129103
+        }
+      ],
+      "sector": "Energy"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "timestamp": "2025-06-13T19:23:14.742461",
+      "current_price": 78.11,
+      "price_change": -1.84,
+      "price_change_pct": -2.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 70.8,
+        "macd": 1.691,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7955976845991745
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9426482541509577
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPOT",
+      "name": "Spotify",
+      "timestamp": "2025-06-13T19:23:14.745712",
+      "current_price": 417.15,
+      "price_change": 3.93,
+      "price_change_pct": 0.95,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 54.4,
+        "macd": 1.362,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7100883289982881
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8713035056985894
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "timestamp": "2025-06-13T19:23:14.748007",
+      "current_price": 473.78,
+      "price_change": 4.66,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 31.6,
+        "macd": 0.611,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.759027237099134
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAN",
+      "name": "Sanofi",
+      "timestamp": "2025-06-13T19:23:14.748408",
+      "current_price": 125.03,
+      "price_change": 1.59,
+      "price_change_pct": 1.29,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.2,
+        "macd": 0.017,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7630655853490456
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "timestamp": "2025-06-13T19:23:14.749592",
+      "current_price": 233.04,
+      "price_change": 1.76,
+      "price_change_pct": 0.76,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 69.1,
+        "macd": 1.929,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7557607668096997
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.7577130447009502
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAP",
+      "name": "SAP",
+      "timestamp": "2025-06-13T19:23:14.740246",
+      "current_price": 102.66,
+      "price_change": -2.36,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.6,
+        "macd": 0.369,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8003402558765149
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.9240039217246012
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk",
+      "timestamp": "2025-06-13T19:23:14.740333",
+      "current_price": 273.96,
+      "price_change": -3.4,
+      "price_change_pct": -1.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.9,
+        "macd": 0.79,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9126791328021433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "Charles Schwab",
+      "timestamp": "2025-06-13T19:23:14.743916",
+      "current_price": 85.58,
+      "price_change": 3.72,
+      "price_change_pct": 4.54,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.5,
+        "macd": 1.277,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8096321225568566
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8920516668256079
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "timestamp": "2025-06-13T19:23:14.744316",
+      "current_price": 269.99,
+      "price_change": -3.8,
+      "price_change_pct": -1.39,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 45.0,
+        "macd": 1.329,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8989080213228908
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7100819766794646
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCK",
+      "name": "McKesson",
+      "timestamp": "2025-06-13T19:23:14.750906",
+      "current_price": 188.71,
+      "price_change": -4.11,
+      "price_change_pct": -2.13,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.2,
+        "macd": 0.163,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8932590585409925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola",
+      "timestamp": "2025-06-13T19:23:14.740143",
+      "current_price": 469.97,
+      "price_change": 4.27,
+      "price_change_pct": 0.92,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.7,
+        "macd": 1.854,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.860706022811794
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7872731981242396
+        }
+      ],
+      "sector": "Beverages"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde",
+      "timestamp": "2025-06-13T19:23:14.741754",
+      "current_price": 467.36,
+      "price_change": 1.3,
+      "price_change_pct": 0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.7,
+        "macd": 0.661,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "timestamp": "2025-06-13T19:23:14.752393",
+      "current_price": 272.37,
+      "price_change": -4.21,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 66.6,
+        "macd": 1.385,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8774359086009375
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "timestamp": "2025-06-13T19:23:14.744239",
+      "current_price": 60.17,
+      "price_change": -2.53,
+      "price_change_pct": -4.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 65.7,
+        "macd": 1.53,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.749980864978785
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "timestamp": "2025-06-13T19:23:14.746246",
+      "current_price": 463.46,
+      "price_change": -1.96,
+      "price_change_pct": -0.42,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.5,
+        "macd": 1.794,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7327498603643421
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EL",
+      "name": "EssilorLuxottica",
+      "timestamp": "2025-06-13T19:23:14.747880",
+      "current_price": 52.95,
+      "price_change": 2.22,
+      "price_change_pct": 4.38,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 53.4,
+        "macd": 0.776,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.9233888303170992
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9360208809880538
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SONY",
+      "name": "Sony",
+      "timestamp": "2025-06-13T19:23:14.743996",
+      "current_price": 221.08,
+      "price_change": -2.99,
+      "price_change_pct": -1.34,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.0,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.941219886863314
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7955942969005804
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CS",
+      "name": "AXA",
+      "timestamp": "2025-06-13T19:23:14.750747",
+      "current_price": 70.23,
+      "price_change": -3.09,
+      "price_change_pct": -4.22,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.9,
+        "macd": 1.519,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8012529354108202
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna Group",
+      "timestamp": "2025-06-13T19:23:14.752065",
+      "current_price": 374.72,
+      "price_change": -2.52,
+      "price_change_pct": -0.67,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 48.0,
+        "macd": 1.75,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.830203835189718
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "timestamp": "2025-06-13T19:23:14.738427",
+      "current_price": 516.44,
+      "price_change": -4.36,
+      "price_change_pct": -0.84,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 86,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 76.6,
+        "macd": 1.271,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7061153979787738
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "timestamp": "2025-06-13T19:23:14.743186",
+      "current_price": 450.65,
+      "price_change": 4.7,
+      "price_change_pct": 1.05,
+      "recommendation": "BUY",
+      "catalyst_score": 84,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 41.9,
+        "macd": 1.755,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7121689157380162
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9241142702717009
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "timestamp": "2025-06-13T19:23:14.748534",
+      "current_price": 125.41,
+      "price_change": 0.11,
+      "price_change_pct": 0.09,
+      "recommendation": "BUY",
+      "catalyst_score": 84,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 62.3,
+        "macd": 1.723,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bull_flag",
+          "confidence": 0.7481952430957501
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth",
+      "timestamp": "2025-06-13T19:23:14.740649",
+      "current_price": 424.9,
+      "price_change": -0.58,
+      "price_change_pct": -0.14,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.7,
+        "macd": 1.931,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9486787796262948
+        },
+        {
+          "type": "doji",
+          "confidence": 0.9158627235033949
+        }
+      ],
+      "sector": "Other"
+    }
+  ],
+  "strong_buy_recommendations": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "timestamp": "2025-06-13T19:23:14.737819",
+      "current_price": 470.17,
+      "price_change": -4.79,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": 1.189,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7385890696544972
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7280543965256185
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Class C",
+      "timestamp": "2025-06-13T19:23:14.738336",
+      "current_price": 258.34,
+      "price_change": -3.99,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 24.2,
+        "macd": 1.589,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9345995145167789
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "timestamp": "2025-06-13T19:23:14.738427",
+      "current_price": 516.44,
+      "price_change": -4.36,
+      "price_change_pct": -0.84,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 86,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 76.6,
+        "macd": 1.271,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7061153979787738
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
+      "timestamp": "2025-06-13T19:23:14.738784",
+      "current_price": 225.0,
+      "price_change": 3.03,
+      "price_change_pct": 1.37,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 40.6,
+        "macd": 0.663,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8127769845599611
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "timestamp": "2025-06-13T19:23:14.739318",
+      "current_price": 285.34,
+      "price_change": -4.63,
+      "price_change_pct": -1.6,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.3,
+        "macd": 2.165,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7222553153630756
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8796746470298573
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil",
+      "timestamp": "2025-06-13T19:23:14.739558",
+      "current_price": 501.2,
+      "price_change": 1.59,
+      "price_change_pct": 0.32,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 72.5,
+        "macd": 2.267,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8446286237221972
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8693094052129103
+        }
+      ],
+      "sector": "Energy"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "timestamp": "2025-06-13T19:23:14.739672",
+      "current_price": 430.67,
+      "price_change": 0.81,
+      "price_change_pct": 0.19,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.0,
+        "macd": 1.824,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.784776926880677
+        }
+      ],
+      "sector": "Consumer Goods"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "timestamp": "2025-06-13T19:23:14.740061",
+      "current_price": 72.23,
+      "price_change": 4.82,
+      "price_change_pct": 7.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 96,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.0,
+        "macd": 1.045,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8872755508435914
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9399901862608548
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola",
+      "timestamp": "2025-06-13T19:23:14.740143",
+      "current_price": 469.97,
+      "price_change": 4.27,
+      "price_change_pct": 0.92,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.7,
+        "macd": 1.854,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.860706022811794
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7872731981242396
+        }
+      ],
+      "sector": "Beverages"
+    },
+    {
+      "symbol": "SAP",
+      "name": "SAP",
+      "timestamp": "2025-06-13T19:23:14.740246",
+      "current_price": 102.66,
+      "price_change": -2.36,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.6,
+        "macd": 0.369,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8003402558765149
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.9240039217246012
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk",
+      "timestamp": "2025-06-13T19:23:14.740333",
+      "current_price": 273.96,
+      "price_change": -3.4,
+      "price_change_pct": -1.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.9,
+        "macd": 0.79,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9126791328021433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris",
+      "timestamp": "2025-06-13T19:23:14.740485",
+      "current_price": 418.68,
+      "price_change": 3.61,
+      "price_change_pct": 0.87,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.8,
+        "macd": 1.555,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7147437161345993
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "timestamp": "2025-06-13T19:23:14.740806",
+      "current_price": 337.49,
+      "price_change": -3.43,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.1,
+        "macd": 0.909,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7128043950175217
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "timestamp": "2025-06-13T19:23:14.741174",
+      "current_price": 248.39,
+      "price_change": -4.5,
+      "price_change_pct": -1.78,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 95,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.2,
+        "macd": 1.458,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9126591439551858
+        }
+      ],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's",
+      "timestamp": "2025-06-13T19:23:14.741531",
+      "current_price": 155.64,
+      "price_change": -0.36,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.9,
+        "macd": 0.283,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7158692262099314
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8839887502413872
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde",
+      "timestamp": "2025-06-13T19:23:14.741754",
+      "current_price": 467.36,
+      "price_change": 1.3,
+      "price_change_pct": 0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.7,
+        "macd": 0.661,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "timestamp": "2025-06-13T19:23:14.742461",
+      "current_price": 78.11,
+      "price_change": -1.84,
+      "price_change_pct": -2.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 70.8,
+        "macd": 1.691,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7955976845991745
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9426482541509577
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SIE",
+      "name": "Siemens",
+      "timestamp": "2025-06-13T19:23:14.743647",
+      "current_price": 146.91,
+      "price_change": -0.42,
+      "price_change_pct": -0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.7,
+        "macd": 0.398,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7531555478028411
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8244220488275756
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "Charles Schwab",
+      "timestamp": "2025-06-13T19:23:14.743916",
+      "current_price": 85.58,
+      "price_change": 3.72,
+      "price_change_pct": 4.54,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.5,
+        "macd": 1.277,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8096321225568566
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8920516668256079
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SONY",
+      "name": "Sony",
+      "timestamp": "2025-06-13T19:23:14.743996",
+      "current_price": 221.08,
+      "price_change": -2.99,
+      "price_change_pct": -1.34,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.0,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.941219886863314
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7955942969005804
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "timestamp": "2025-06-13T19:23:14.744239",
+      "current_price": 60.17,
+      "price_change": -2.53,
+      "price_change_pct": -4.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 65.7,
+        "macd": 1.53,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.749980864978785
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "timestamp": "2025-06-13T19:23:14.744316",
+      "current_price": 269.99,
+      "price_change": -3.8,
+      "price_change_pct": -1.39,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 45.0,
+        "macd": 1.329,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8989080213228908
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7100819766794646
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere",
+      "timestamp": "2025-06-13T19:23:14.745465",
+      "current_price": 153.25,
+      "price_change": -0.02,
+      "price_change_pct": -0.02,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 97,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 62.3,
+        "macd": 1.984,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8393189008721612
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPOT",
+      "name": "Spotify",
+      "timestamp": "2025-06-13T19:23:14.745712",
+      "current_price": 417.15,
+      "price_change": 3.93,
+      "price_change_pct": 0.95,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 54.4,
+        "macd": 1.362,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7100883289982881
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8713035056985894
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific",
+      "timestamp": "2025-06-13T19:23:14.746096",
+      "current_price": 277.19,
+      "price_change": 0.9,
+      "price_change_pct": 0.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.7,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7783898765250292
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7421702136215433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "timestamp": "2025-06-13T19:23:14.746246",
+      "current_price": 463.46,
+      "price_change": -1.96,
+      "price_change_pct": -0.42,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.5,
+        "macd": 1.794,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7327498603643421
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "timestamp": "2025-06-13T19:23:14.746379",
+      "current_price": 93.55,
+      "price_change": -4.62,
+      "price_change_pct": -4.71,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 98,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.5,
+        "macd": 1.287,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7982174929667629
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "timestamp": "2025-06-13T19:23:14.746539",
+      "current_price": 409.6,
+      "price_change": 4.78,
+      "price_change_pct": 1.18,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.0,
+        "macd": 1.1,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7831353537224073
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7217955319484541
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EL",
+      "name": "EssilorLuxottica",
+      "timestamp": "2025-06-13T19:23:14.747880",
+      "current_price": 52.95,
+      "price_change": 2.22,
+      "price_change_pct": 4.38,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 53.4,
+        "macd": 0.776,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.9233888303170992
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9360208809880538
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "timestamp": "2025-06-13T19:23:14.748007",
+      "current_price": 473.78,
+      "price_change": 4.66,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 31.6,
+        "macd": 0.611,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.759027237099134
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "timestamp": "2025-06-13T19:23:14.748080",
+      "current_price": 216.15,
+      "price_change": -4.98,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.6,
+        "macd": 1.135,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8549728892689149
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR & Co",
+      "timestamp": "2025-06-13T19:23:14.748160",
+      "current_price": 439.87,
+      "price_change": -4.47,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 34.4,
+        "macd": 0.624,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.9294561808006052
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8533749197454398
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAN",
+      "name": "Sanofi",
+      "timestamp": "2025-06-13T19:23:14.748408",
+      "current_price": 125.03,
+      "price_change": 1.59,
+      "price_change_pct": 1.29,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.2,
+        "macd": 0.017,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7630655853490456
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "timestamp": "2025-06-13T19:23:14.748622",
+      "current_price": 317.82,
+      "price_change": 0.49,
+      "price_change_pct": 0.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.5,
+        "macd": 0.665,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7728906176816642
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7527723417016791
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "timestamp": "2025-06-13T19:23:14.749592",
+      "current_price": 233.04,
+      "price_change": 1.76,
+      "price_change_pct": 0.76,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 69.1,
+        "macd": 1.929,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7557607668096997
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.7577130447009502
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SMFG",
+      "name": "Sumitomo Mitsui Financial",
+      "timestamp": "2025-06-13T19:23:14.749751",
+      "current_price": 73.29,
+      "price_change": 4.82,
+      "price_change_pct": 7.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 94,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.1,
+        "macd": 0.18,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.720497088422553
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7507947152629955
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BTI",
+      "name": "British American Tobacco",
+      "timestamp": "2025-06-13T19:23:14.749957",
+      "current_price": 88.17,
+      "price_change": 4.75,
+      "price_change_pct": 5.69,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 32.9,
+        "macd": 1.156,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.717977649226991
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7668851103347596
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "timestamp": "2025-06-13T19:23:14.750134",
+      "current_price": 414.42,
+      "price_change": -1.3,
+      "price_change_pct": -0.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 93,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 67.1,
+        "macd": 1.916,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8437573428943533
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9487861446234449
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BAM",
+      "name": "Brookfield Asset Management",
+      "timestamp": "2025-06-13T19:23:14.750469",
+      "current_price": 299.31,
+      "price_change": -0.69,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.7,
+        "macd": 1.634,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8260696762961515
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9200804942381934
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CS",
+      "name": "AXA",
+      "timestamp": "2025-06-13T19:23:14.750747",
+      "current_price": 70.23,
+      "price_change": -3.09,
+      "price_change_pct": -4.22,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.9,
+        "macd": 1.519,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8012529354108202
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCK",
+      "name": "McKesson",
+      "timestamp": "2025-06-13T19:23:14.750906",
+      "current_price": 188.71,
+      "price_change": -4.11,
+      "price_change_pct": -2.13,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.2,
+        "macd": 0.163,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8932590585409925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike",
+      "timestamp": "2025-06-13T19:23:14.751018",
+      "current_price": 78.08,
+      "price_change": -4.13,
+      "price_change_pct": -5.03,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.2,
+        "macd": 0.582,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "timestamp": "2025-06-13T19:23:14.751420",
+      "current_price": 259.81,
+      "price_change": 2.25,
+      "price_change_pct": 0.88,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.5,
+        "macd": 1.839,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7546511931071925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's",
+      "timestamp": "2025-06-13T19:23:14.751712",
+      "current_price": 321.06,
+      "price_change": 3.15,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 33.0,
+        "macd": 1.157,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.849828470006091
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna Group",
+      "timestamp": "2025-06-13T19:23:14.752065",
+      "current_price": 374.72,
+      "price_change": -2.52,
+      "price_change_pct": -0.67,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 48.0,
+        "macd": 1.75,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.830203835189718
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm",
+      "timestamp": "2025-06-13T19:23:14.752203",
+      "current_price": 277.98,
+      "price_change": 1.59,
+      "price_change_pct": 0.58,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.7,
+        "macd": 0.95,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7704189051257118
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7846673760978482
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "timestamp": "2025-06-13T19:23:14.752393",
+      "current_price": 272.37,
+      "price_change": -4.21,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 66.6,
+        "macd": 1.385,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8774359086009375
+        }
+      ],
+      "sector": "Other"
+    }
+  ],
+  "sector_analysis": {
+    "Technology": {
+      "count": 9,
+      "avg_catalyst_score": 70.3,
+      "strong_buys": 4,
+      "buys": 2,
+      "holds": 1,
+      "sells": 2
+    },
+    "E-commerce": {
+      "count": 1,
+      "avg_catalyst_score": 76.0,
+      "strong_buys": 0,
+      "buys": 1,
+      "holds": 0,
+      "sells": 0
+    },
+    "Other": {
+      "count": 174,
+      "avg_catalyst_score": 62.5,
+      "strong_buys": 39,
+      "buys": 30,
+      "holds": 74,
+      "sells": 31
+    },
+    "Automotive": {
+      "count": 1,
+      "avg_catalyst_score": 73.0,
+      "strong_buys": 0,
+      "buys": 1,
+      "holds": 0,
+      "sells": 0
+    },
+    "Retail": {
+      "count": 3,
+      "avg_catalyst_score": 54.7,
+      "strong_buys": 0,
+      "buys": 1,
+      "holds": 1,
+      "sells": 1
+    },
+    "Banking": {
+      "count": 5,
+      "avg_catalyst_score": 55.4,
+      "strong_buys": 1,
+      "buys": 1,
+      "holds": 1,
+      "sells": 2
+    },
+    "Entertainment": {
+      "count": 1,
+      "avg_catalyst_score": 70.0,
+      "strong_buys": 0,
+      "buys": 1,
+      "holds": 0,
+      "sells": 0
+    },
+    "Energy": {
+      "count": 2,
+      "avg_catalyst_score": 76.0,
+      "strong_buys": 1,
+      "buys": 0,
+      "holds": 1,
+      "sells": 0
+    },
+    "Consumer Goods": {
+      "count": 1,
+      "avg_catalyst_score": 92.0,
+      "strong_buys": 1,
+      "buys": 0,
+      "holds": 0,
+      "sells": 0
+    },
+    "Healthcare": {
+      "count": 1,
+      "avg_catalyst_score": 46.0,
+      "strong_buys": 0,
+      "buys": 0,
+      "holds": 1,
+      "sells": 0
+    },
+    "Beverages": {
+      "count": 2,
+      "avg_catalyst_score": 67.5,
+      "strong_buys": 1,
+      "buys": 0,
+      "holds": 1,
+      "sells": 0
+    }
+  },
+  "all_results": [
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "timestamp": "2025-06-13T19:23:14.737577",
+      "current_price": 415.88,
+      "price_change": -4.62,
+      "price_change_pct": -1.1,
+      "recommendation": "SELL",
+      "catalyst_score": 19,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 81.5,
+        "macd": -1.343,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.8211337461419318
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "timestamp": "2025-06-13T19:23:14.737819",
+      "current_price": 470.17,
+      "price_change": -4.79,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": 1.189,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7385890696544972
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7280543965256185
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "timestamp": "2025-06-13T19:23:14.737985",
+      "current_price": 199.37,
+      "price_change": 2.92,
+      "price_change_pct": 1.49,
+      "recommendation": "BUY",
+      "catalyst_score": 72,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 53.0,
+        "macd": -0.009,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7892712590761414
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "timestamp": "2025-06-13T19:23:14.738116",
+      "current_price": 187.39,
+      "price_change": 2.19,
+      "price_change_pct": 1.18,
+      "recommendation": "BUY",
+      "catalyst_score": 76,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 54.3,
+        "macd": 1.868,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8743496453379522
+        }
+      ],
+      "sector": "E-commerce"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Class A",
+      "timestamp": "2025-06-13T19:23:14.738236",
+      "current_price": 174.01,
+      "price_change": -1.29,
+      "price_change_pct": -0.74,
+      "recommendation": "BUY",
+      "catalyst_score": 74,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 81.9,
+        "macd": 1.666,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8309985435595203
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Class C",
+      "timestamp": "2025-06-13T19:23:14.738336",
+      "current_price": 258.34,
+      "price_change": -3.99,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 24.2,
+        "macd": 1.589,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9345995145167789
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "timestamp": "2025-06-13T19:23:14.738427",
+      "current_price": 516.44,
+      "price_change": -4.36,
+      "price_change_pct": -0.84,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 86,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 76.6,
+        "macd": 1.271,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7061153979787738
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "timestamp": "2025-06-13T19:23:14.738533",
+      "current_price": 130.91,
+      "price_change": -2.73,
+      "price_change_pct": -2.04,
+      "recommendation": "BUY",
+      "catalyst_score": 78,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 73.5,
+        "macd": 1.539,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bull_flag",
+          "confidence": 0.7367466732361242
+        },
+        {
+          "type": "breakout",
+          "confidence": 0.7943036730487405
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "timestamp": "2025-06-13T19:23:14.738618",
+      "current_price": 326.8,
+      "price_change": 1.49,
+      "price_change_pct": 0.46,
+      "recommendation": "BUY",
+      "catalyst_score": 73,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 30.8,
+        "macd": -0.207,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Automotive"
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "timestamp": "2025-06-13T19:23:14.738704",
+      "current_price": 316.55,
+      "price_change": 0.55,
+      "price_change_pct": 0.17,
+      "recommendation": "BUY",
+      "catalyst_score": 77,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 39.3,
+        "macd": 0.012,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8547317368639756
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
+      "timestamp": "2025-06-13T19:23:14.738784",
+      "current_price": 225.0,
+      "price_change": 3.03,
+      "price_change_pct": 1.37,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 40.6,
+        "macd": 0.663,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8127769845599611
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart",
+      "timestamp": "2025-06-13T19:23:14.738862",
+      "current_price": 328.65,
+      "price_change": -0.8,
+      "price_change_pct": -0.24,
+      "recommendation": "HOLD",
+      "catalyst_score": 69,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 74.7,
+        "macd": 1.269,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8089095615297979
+        }
+      ],
+      "sector": "Retail"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase",
+      "timestamp": "2025-06-13T19:23:14.738952",
+      "current_price": 397.53,
+      "price_change": -0.89,
+      "price_change_pct": -0.22,
+      "recommendation": "SELL",
+      "catalyst_score": 38,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 47.6,
+        "macd": -1.004,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7102436846787658
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.784316542487371
+        }
+      ],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa",
+      "timestamp": "2025-06-13T19:23:14.739031",
+      "current_price": 57.66,
+      "price_change": 2.54,
+      "price_change_pct": 4.61,
+      "recommendation": "BUY",
+      "catalyst_score": 81,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 56.7,
+        "macd": 1.36,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.719446272929839
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.925776822868256
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly",
+      "timestamp": "2025-06-13T19:23:14.739107",
+      "current_price": 282.67,
+      "price_change": -2.34,
+      "price_change_pct": -0.82,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 44,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 46.8,
+        "macd": -1.051,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8460299766069407
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "timestamp": "2025-06-13T19:23:14.739186",
+      "current_price": 431.61,
+      "price_change": 4.71,
+      "price_change_pct": 1.1,
+      "recommendation": "SELL",
+      "catalyst_score": 24,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 77.8,
+        "macd": -0.722,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.7471642475779645
+        },
+        {
+          "type": "shooting_star",
+          "confidence": 0.7853700380720418
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "timestamp": "2025-06-13T19:23:14.739243",
+      "current_price": 678.36,
+      "price_change": -2.04,
+      "price_change_pct": -0.3,
+      "recommendation": "BUY",
+      "catalyst_score": 70,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 33.0,
+        "macd": -0.132,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Entertainment"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "timestamp": "2025-06-13T19:23:14.739318",
+      "current_price": 285.34,
+      "price_change": -4.63,
+      "price_change_pct": -1.6,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.3,
+        "macd": 2.165,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7222553153630756
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8796746470298573
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "timestamp": "2025-06-13T19:23:14.739422",
+      "current_price": 219.08,
+      "price_change": 1.66,
+      "price_change_pct": 0.76,
+      "recommendation": "SELL",
+      "catalyst_score": 17,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 85.0,
+        "macd": -0.303,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.800959077765857
+        },
+        {
+          "type": "shooting_star",
+          "confidence": 0.9469968525747481
+        }
+      ],
+      "sector": "Retail"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil",
+      "timestamp": "2025-06-13T19:23:14.739558",
+      "current_price": 501.2,
+      "price_change": 1.59,
+      "price_change_pct": 0.32,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 72.5,
+        "macd": 2.267,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8446286237221972
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8693094052129103
+        }
+      ],
+      "sector": "Energy"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "timestamp": "2025-06-13T19:23:14.739672",
+      "current_price": 430.67,
+      "price_change": 0.81,
+      "price_change_pct": 0.19,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.0,
+        "macd": 1.824,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.784776926880677
+        }
+      ],
+      "sector": "Consumer Goods"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "timestamp": "2025-06-13T19:23:14.739758",
+      "current_price": 237.39,
+      "price_change": 3.25,
+      "price_change_pct": 1.39,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 46,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 51.7,
+        "macd": -1.38,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8476265074107578
+        }
+      ],
+      "sector": "Healthcare"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot",
+      "timestamp": "2025-06-13T19:23:14.739834",
+      "current_price": 271.49,
+      "price_change": -1.61,
+      "price_change_pct": -0.59,
+      "recommendation": "BUY",
+      "catalyst_score": 78,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 71.3,
+        "macd": 1.097,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7152348526349788
+        }
+      ],
+      "sector": "Retail"
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America",
+      "timestamp": "2025-06-13T19:23:14.739913",
+      "current_price": 185.15,
+      "price_change": -2.55,
+      "price_change_pct": -1.36,
+      "recommendation": "SELL",
+      "catalyst_score": 8,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 80.1,
+        "macd": 0.323,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "head_shoulders",
+          "confidence": 0.7185230779392716
+        },
+        {
+          "type": "double_top",
+          "confidence": 0.7197507042051425
+        }
+      ],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "ABBV",
+      "name": "AbbVie",
+      "timestamp": "2025-06-13T19:23:14.739969",
+      "current_price": 264.57,
+      "price_change": -2.71,
+      "price_change_pct": -1.01,
+      "recommendation": "SELL",
+      "catalyst_score": 37,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 64.4,
+        "macd": -0.534,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "timestamp": "2025-06-13T19:23:14.740061",
+      "current_price": 72.23,
+      "price_change": 4.82,
+      "price_change_pct": 7.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 96,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.0,
+        "macd": 1.045,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8872755508435914
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9399901862608548
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola",
+      "timestamp": "2025-06-13T19:23:14.740143",
+      "current_price": 469.97,
+      "price_change": 4.27,
+      "price_change_pct": 0.92,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.7,
+        "macd": 1.854,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.860706022811794
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7872731981242396
+        }
+      ],
+      "sector": "Beverages"
+    },
+    {
+      "symbol": "SAP",
+      "name": "SAP",
+      "timestamp": "2025-06-13T19:23:14.740246",
+      "current_price": 102.66,
+      "price_change": -2.36,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.6,
+        "macd": 0.369,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8003402558765149
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.9240039217246012
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk",
+      "timestamp": "2025-06-13T19:23:14.740333",
+      "current_price": 273.96,
+      "price_change": -3.4,
+      "price_change_pct": -1.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.9,
+        "macd": 0.79,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9126791328021433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding NV",
+      "timestamp": "2025-06-13T19:23:14.740410",
+      "current_price": 288.78,
+      "price_change": -2.33,
+      "price_change_pct": -0.8,
+      "recommendation": "SELL",
+      "catalyst_score": 38,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 53.1,
+        "macd": -1.499,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.734305401741581
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris",
+      "timestamp": "2025-06-13T19:23:14.740485",
+      "current_price": 418.68,
+      "price_change": 3.61,
+      "price_change_pct": 0.87,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.8,
+        "macd": 1.555,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7147437161345993
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile",
+      "timestamp": "2025-06-13T19:23:14.740562",
+      "current_price": 74.41,
+      "price_change": -4.28,
+      "price_change_pct": -5.44,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 54,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 54.5,
+        "macd": -0.974,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.830386971903871
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8741938391839248
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth",
+      "timestamp": "2025-06-13T19:23:14.740649",
+      "current_price": 424.9,
+      "price_change": -0.58,
+      "price_change_pct": -0.14,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 42.7,
+        "macd": 1.931,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9486787796262948
+        },
+        {
+          "type": "doji",
+          "confidence": 0.9158627235033949
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE",
+      "timestamp": "2025-06-13T19:23:14.740730",
+      "current_price": 403.06,
+      "price_change": -4.65,
+      "price_change_pct": -1.14,
+      "recommendation": "SELL",
+      "catalyst_score": 30,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 83.6,
+        "macd": 0.339,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "head_shoulders",
+          "confidence": 0.8894435248815353
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "timestamp": "2025-06-13T19:23:14.740806",
+      "current_price": 337.49,
+      "price_change": -3.43,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.1,
+        "macd": 0.909,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7128043950175217
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding",
+      "timestamp": "2025-06-13T19:23:14.740863",
+      "current_price": 151.79,
+      "price_change": -3.32,
+      "price_change_pct": -2.14,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 45,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 69.6,
+        "macd": -0.571,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RMS",
+      "name": "Hermes International",
+      "timestamp": "2025-06-13T19:23:14.740914",
+      "current_price": 266.94,
+      "price_change": -1.57,
+      "price_change_pct": -0.58,
+      "recommendation": "SELL",
+      "catalyst_score": 35,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 68.8,
+        "macd": -1.595,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "timestamp": "2025-06-13T19:23:14.740966",
+      "current_price": 422.12,
+      "price_change": 2.35,
+      "price_change_pct": 0.56,
+      "recommendation": "HOLD",
+      "catalyst_score": 56,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 62.7,
+        "macd": -0.636,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "TM",
+      "name": "Toyota",
+      "timestamp": "2025-06-13T19:23:14.741045",
+      "current_price": 352.34,
+      "price_change": -3.48,
+      "price_change_pct": -0.98,
+      "recommendation": "SELL",
+      "catalyst_score": 4,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 81.0,
+        "macd": -1.956,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.7498861335171711
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco Systems",
+      "timestamp": "2025-06-13T19:23:14.741101",
+      "current_price": 363.75,
+      "price_change": -2.32,
+      "price_change_pct": -0.63,
+      "recommendation": "HOLD",
+      "catalyst_score": 69,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 60.7,
+        "macd": 0.054,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "timestamp": "2025-06-13T19:23:14.741174",
+      "current_price": 248.39,
+      "price_change": -4.5,
+      "price_change_pct": -1.78,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 95,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.2,
+        "macd": 1.458,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9126591439551858
+        }
+      ],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "MC",
+      "name": "LVMH Moet Hennessy Louis Vuitton",
+      "timestamp": "2025-06-13T19:23:14.741248",
+      "current_price": 149.09,
+      "price_change": -0.2,
+      "price_change_pct": -0.14,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 49,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 56.3,
+        "macd": -1.346,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7196548140623025
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Chevron",
+      "timestamp": "2025-06-13T19:23:14.741323",
+      "current_price": 103.32,
+      "price_change": -2.32,
+      "price_change_pct": -2.19,
+      "recommendation": "HOLD",
+      "catalyst_score": 61,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 82.4,
+        "macd": 1.607,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.9175514100335045
+        }
+      ],
+      "sector": "Energy"
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "timestamp": "2025-06-13T19:23:14.741378",
+      "current_price": 226.18,
+      "price_change": 4.98,
+      "price_change_pct": 2.25,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 52,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 78.6,
+        "macd": 0.407,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ABT",
+      "name": "Abbott",
+      "timestamp": "2025-06-13T19:23:14.741451",
+      "current_price": 235.02,
+      "price_change": 1.75,
+      "price_change_pct": 0.75,
+      "recommendation": "SELL",
+      "catalyst_score": 19,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 75.6,
+        "macd": -0.76,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.932586263874072
+        },
+        {
+          "type": "shooting_star",
+          "confidence": 0.8859300909251274
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's",
+      "timestamp": "2025-06-13T19:23:14.741531",
+      "current_price": 155.64,
+      "price_change": -0.36,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.9,
+        "macd": 0.283,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7158692262099314
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.8839887502413872
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NVS",
+      "name": "Novartis",
+      "timestamp": "2025-06-13T19:23:14.741616",
+      "current_price": 241.91,
+      "price_change": -4.57,
+      "price_change_pct": -1.85,
+      "recommendation": "SELL",
+      "catalyst_score": 39,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 82.4,
+        "macd": 0.808,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "double_top",
+          "confidence": 0.9055430910453758
+        },
+        {
+          "type": "head_shoulders",
+          "confidence": 0.7194658519988808
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AZN",
+      "name": "AstraZeneca",
+      "timestamp": "2025-06-13T19:23:14.741694",
+      "current_price": 462.18,
+      "price_change": -1.55,
+      "price_change_pct": -0.33,
+      "recommendation": "BUY",
+      "catalyst_score": 77,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 49.8,
+        "macd": 1.148,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9375612289155681
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7739827723798162
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde",
+      "timestamp": "2025-06-13T19:23:14.741754",
+      "current_price": 467.36,
+      "price_change": 1.3,
+      "price_change_pct": 0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.7,
+        "macd": 0.661,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "timestamp": "2025-06-13T19:23:14.741805",
+      "current_price": 220.21,
+      "price_change": -2.04,
+      "price_change_pct": -0.92,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 42,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 67.4,
+        "macd": -1.68,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "timestamp": "2025-06-13T19:23:14.741888",
+      "current_price": 252.09,
+      "price_change": -1.75,
+      "price_change_pct": -0.69,
+      "recommendation": "HOLD",
+      "catalyst_score": 63,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 52.3,
+        "macd": 0.138,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8268327121070269
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AXP",
+      "name": "American Express",
+      "timestamp": "2025-06-13T19:23:14.741969",
+      "current_price": 323.77,
+      "price_change": -3.97,
+      "price_change_pct": -1.21,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 50,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 41.9,
+        "macd": -1.344,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7029388251214443
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7478066759671366
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "timestamp": "2025-06-13T19:23:14.742044",
+      "current_price": 409.3,
+      "price_change": 3.6,
+      "price_change_pct": 0.89,
+      "recommendation": "HOLD",
+      "catalyst_score": 65,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 50.7,
+        "macd": 0.367,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7802087920885068
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7364895150206563
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "HSBC",
+      "name": "HSBC",
+      "timestamp": "2025-06-13T19:23:14.742100",
+      "current_price": 57.26,
+      "price_change": -0.13,
+      "price_change_pct": -0.22,
+      "recommendation": "BUY",
+      "catalyst_score": 71,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 66.7,
+        "macd": 0.424,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DIS",
+      "name": "Disney",
+      "timestamp": "2025-06-13T19:23:14.742171",
+      "current_price": 102.82,
+      "price_change": 1.17,
+      "price_change_pct": 1.15,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 43,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 70.8,
+        "macd": -0.26,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.9273702333732765
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "T",
+      "name": "AT&T",
+      "timestamp": "2025-06-13T19:23:14.742245",
+      "current_price": 403.06,
+      "price_change": -0.8,
+      "price_change_pct": -0.2,
+      "recommendation": "HOLD",
+      "catalyst_score": 60,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 40.0,
+        "macd": -0.411,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7237482829061865
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "OR",
+      "name": "L'Oreal",
+      "timestamp": "2025-06-13T19:23:14.742326",
+      "current_price": 288.18,
+      "price_change": 2.06,
+      "price_change_pct": 0.72,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 47,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 43.8,
+        "macd": -1.782,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7118839064266538
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8561955441161713
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "timestamp": "2025-06-13T19:23:14.742383",
+      "current_price": 71.94,
+      "price_change": -4.81,
+      "price_change_pct": -6.27,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 42,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 33.6,
+        "macd": -0.831,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "timestamp": "2025-06-13T19:23:14.742461",
+      "current_price": 78.11,
+      "price_change": -1.84,
+      "price_change_pct": -2.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 70.8,
+        "macd": 1.691,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7955976845991745
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9426482541509577
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SHEL",
+      "name": "Shell",
+      "timestamp": "2025-06-13T19:23:14.742538",
+      "current_price": 60.18,
+      "price_change": 1.22,
+      "price_change_pct": 2.07,
+      "recommendation": "SELL",
+      "catalyst_score": 38,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 47.2,
+        "macd": -1.602,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8067200231292576
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MRK",
+      "name": "Merck & Co.",
+      "timestamp": "2025-06-13T19:23:14.742628",
+      "current_price": 189.48,
+      "price_change": 3.93,
+      "price_change_pct": 2.12,
+      "recommendation": "SELL",
+      "catalyst_score": 35,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 58.7,
+        "macd": -1.83,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.9018546749245181
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.810666096318044
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon",
+      "timestamp": "2025-06-13T19:23:14.742713",
+      "current_price": 462.9,
+      "price_change": 0.72,
+      "price_change_pct": 0.15,
+      "recommendation": "HOLD",
+      "catalyst_score": 63,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 41.2,
+        "macd": -0.401,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7460735482711514
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RTX",
+      "name": "RTX Corporation",
+      "timestamp": "2025-06-13T19:23:14.742789",
+      "current_price": 49.89,
+      "price_change": -3.95,
+      "price_change_pct": -7.33,
+      "recommendation": "HOLD",
+      "catalyst_score": 57,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 51.3,
+        "macd": -0.126,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.764629924549526
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9063734824873924
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo",
+      "timestamp": "2025-06-13T19:23:14.742845",
+      "current_price": 450.49,
+      "price_change": -1.83,
+      "price_change_pct": -0.4,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 46,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 68.2,
+        "macd": -1.231,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Beverages"
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "timestamp": "2025-06-13T19:23:14.742917",
+      "current_price": 71.37,
+      "price_change": 4.07,
+      "price_change_pct": 6.04,
+      "recommendation": "HOLD",
+      "catalyst_score": 57,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 49.8,
+        "macd": -0.109,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8848218022714256
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "timestamp": "2025-06-13T19:23:14.742974",
+      "current_price": 137.0,
+      "price_change": -2.58,
+      "price_change_pct": -1.85,
+      "recommendation": "SELL",
+      "catalyst_score": 36,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 31.7,
+        "macd": -0.948,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RY",
+      "name": "Royal Bank of Canada",
+      "timestamp": "2025-06-13T19:23:14.743031",
+      "current_price": 454.45,
+      "price_change": -2.8,
+      "price_change_pct": -0.61,
+      "recommendation": "HOLD",
+      "catalyst_score": 62,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 28.6,
+        "macd": -1.601,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe",
+      "timestamp": "2025-06-13T19:23:14.743105",
+      "current_price": 330.93,
+      "price_change": -1.98,
+      "price_change_pct": -0.59,
+      "recommendation": "SELL",
+      "catalyst_score": 26,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 71.8,
+        "macd": -0.92,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.7862261407460891
+        }
+      ],
+      "sector": "Technology"
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "timestamp": "2025-06-13T19:23:14.743186",
+      "current_price": 450.65,
+      "price_change": 4.7,
+      "price_change_pct": 1.05,
+      "recommendation": "BUY",
+      "catalyst_score": 84,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 41.9,
+        "macd": 1.755,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7121689157380162
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9241142702717009
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "timestamp": "2025-06-13T19:23:14.743242",
+      "current_price": 358.21,
+      "price_change": -3.89,
+      "price_change_pct": -1.07,
+      "recommendation": "BUY",
+      "catalyst_score": 79,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 28.7,
+        "macd": -0.38,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "HDB",
+      "name": "HDFC Bank",
+      "timestamp": "2025-06-13T19:23:14.743293",
+      "current_price": 313.04,
+      "price_change": 2.01,
+      "price_change_pct": 0.65,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 46,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 60.6,
+        "macd": -0.533,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SHELL",
+      "name": "Shell",
+      "timestamp": "2025-06-13T19:23:14.743364",
+      "current_price": 361.7,
+      "price_change": 2.03,
+      "price_change_pct": 0.56,
+      "recommendation": "BUY",
+      "catalyst_score": 76,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 49.6,
+        "macd": 1.901,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.9397478506114536
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive",
+      "timestamp": "2025-06-13T19:23:14.743419",
+      "current_price": 406.97,
+      "price_change": 2.68,
+      "price_change_pct": 0.66,
+      "recommendation": "HOLD",
+      "catalyst_score": 66,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 28.9,
+        "macd": -0.138,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AZN",
+      "name": "AstraZeneca",
+      "timestamp": "2025-06-13T19:23:14.743470",
+      "current_price": 132.01,
+      "price_change": 3.6,
+      "price_change_pct": 2.81,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 47,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 34.4,
+        "macd": -1.85,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "timestamp": "2025-06-13T19:23:14.743541",
+      "current_price": 432.45,
+      "price_change": -2.84,
+      "price_change_pct": -0.65,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 46,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 41.1,
+        "macd": -0.921,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.707600518350338
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.8194219256129436
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SIE",
+      "name": "Siemens",
+      "timestamp": "2025-06-13T19:23:14.743647",
+      "current_price": 146.91,
+      "price_change": -0.42,
+      "price_change_pct": -0.28,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.7,
+        "macd": 0.398,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7531555478028411
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8244220488275756
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar",
+      "timestamp": "2025-06-13T19:23:14.743709",
+      "current_price": 209.49,
+      "price_change": -3.45,
+      "price_change_pct": -1.62,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 52,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 28.6,
+        "macd": -1.151,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DTE",
+      "name": "Deutsche Telekom",
+      "timestamp": "2025-06-13T19:23:14.743763",
+      "current_price": 357.83,
+      "price_change": -3.75,
+      "price_change_pct": -1.04,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 51,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 31.4,
+        "macd": -1.024,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MUFG",
+      "name": "Mitsubishi UFJ",
+      "timestamp": "2025-06-13T19:23:14.743839",
+      "current_price": 228.56,
+      "price_change": -4.42,
+      "price_change_pct": -1.9,
+      "recommendation": "SELL",
+      "catalyst_score": 16,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 80.1,
+        "macd": -1.804,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.7114452772161097
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "Charles Schwab",
+      "timestamp": "2025-06-13T19:23:14.743916",
+      "current_price": 85.58,
+      "price_change": 3.72,
+      "price_change_pct": 4.54,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 78.5,
+        "macd": 1.277,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8096321225568566
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.8920516668256079
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SONY",
+      "name": "Sony",
+      "timestamp": "2025-06-13T19:23:14.743996",
+      "current_price": 221.08,
+      "price_change": -2.99,
+      "price_change_pct": -1.34,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 58.0,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.941219886863314
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7955942969005804
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "timestamp": "2025-06-13T19:23:14.744071",
+      "current_price": 177.22,
+      "price_change": 2.52,
+      "price_change_pct": 1.44,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 54,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 57.5,
+        "macd": -0.578,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8023146831416722
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UL",
+      "name": "Unilever",
+      "timestamp": "2025-06-13T19:23:14.744145",
+      "current_price": 446.59,
+      "price_change": -4.2,
+      "price_change_pct": -0.93,
+      "recommendation": "BUY",
+      "catalyst_score": 75,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 57.9,
+        "macd": 0.627,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8040979282897119
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "timestamp": "2025-06-13T19:23:14.744239",
+      "current_price": 60.17,
+      "price_change": -2.53,
+      "price_change_pct": -4.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 65.7,
+        "macd": 1.53,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.749980864978785
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "timestamp": "2025-06-13T19:23:14.744316",
+      "current_price": 269.99,
+      "price_change": -3.8,
+      "price_change_pct": -1.39,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 45.0,
+        "macd": 1.329,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8989080213228908
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7100819766794646
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "timestamp": "2025-06-13T19:23:14.744392",
+      "current_price": 441.85,
+      "price_change": 4.97,
+      "price_change_pct": 1.14,
+      "recommendation": "SELL",
+      "catalyst_score": 15,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 72.2,
+        "macd": -1.757,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.9331945866461879
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "timestamp": "2025-06-13T19:23:14.744448",
+      "current_price": 449.91,
+      "price_change": 4.7,
+      "price_change_pct": 1.06,
+      "recommendation": "HOLD",
+      "catalyst_score": 68,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 27.8,
+        "macd": -0.096,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "HSBA",
+      "name": "HSBC Holdings",
+      "timestamp": "2025-06-13T19:23:14.744500",
+      "current_price": 154.07,
+      "price_change": 4.3,
+      "price_change_pct": 2.87,
+      "recommendation": "HOLD",
+      "catalyst_score": 64,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 34.5,
+        "macd": -0.245,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "timestamp": "2025-06-13T19:23:14.744555",
+      "current_price": 342.75,
+      "price_change": -3.22,
+      "price_change_pct": -0.93,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 54,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 67.8,
+        "macd": -1.054,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BLK",
+      "name": "Blackrock",
+      "timestamp": "2025-06-13T19:23:14.744639",
+      "current_price": 303.55,
+      "price_change": -4.5,
+      "price_change_pct": -1.46,
+      "recommendation": "BUY",
+      "catalyst_score": 75,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 58.6,
+        "macd": 1.203,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.721576154656785
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ITX",
+      "name": "Inditex",
+      "timestamp": "2025-06-13T19:23:14.744695",
+      "current_price": 230.83,
+      "price_change": 1.52,
+      "price_change_pct": 0.66,
+      "recommendation": "HOLD",
+      "catalyst_score": 57,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 73.7,
+        "macd": 0.017,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SYK",
+      "name": "Stryker",
+      "timestamp": "2025-06-13T19:23:14.744768",
+      "current_price": 201.51,
+      "price_change": 4.85,
+      "price_change_pct": 2.47,
+      "recommendation": "BUY",
+      "catalyst_score": 82,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 44.9,
+        "macd": 1.302,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7540119430319877
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7491959237834587
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell International",
+      "timestamp": "2025-06-13T19:23:14.744843",
+      "current_price": 245.8,
+      "price_change": 0.49,
+      "price_change_pct": 0.2,
+      "recommendation": "SELL",
+      "catalyst_score": 35,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 49.5,
+        "macd": -1.283,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8568634871668902
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7495463265165649
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SHEL",
+      "name": "Shell",
+      "timestamp": "2025-06-13T19:23:14.744919",
+      "current_price": 161.03,
+      "price_change": -3.98,
+      "price_change_pct": -2.41,
+      "recommendation": "SELL",
+      "catalyst_score": 30,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 70.9,
+        "macd": -1.417,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.7978750212651171
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NextEra Energy",
+      "timestamp": "2025-06-13T19:23:14.744992",
+      "current_price": 288.9,
+      "price_change": 0.38,
+      "price_change_pct": 0.13,
+      "recommendation": "HOLD",
+      "catalyst_score": 62,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.6,
+        "macd": -0.017,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7825387854299618
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TJX",
+      "name": "TJX",
+      "timestamp": "2025-06-13T19:23:14.745121",
+      "current_price": 344.86,
+      "price_change": -1.6,
+      "price_change_pct": -0.46,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 53,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 26.9,
+        "macd": -1.075,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "timestamp": "2025-06-13T19:23:14.745191",
+      "current_price": 190.15,
+      "price_change": -2.11,
+      "price_change_pct": -1.1,
+      "recommendation": "HOLD",
+      "catalyst_score": 57,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 77.0,
+        "macd": 0.577,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Banking"
+    },
+    {
+      "symbol": "SHOP",
+      "name": "Shopify",
+      "timestamp": "2025-06-13T19:23:14.745269",
+      "current_price": 127.67,
+      "price_change": 2.81,
+      "price_change_pct": 2.25,
+      "recommendation": "BUY",
+      "catalyst_score": 71,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.8,
+        "macd": -0.168,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8714774173800751
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BUD",
+      "name": "Anheuser Busch InBev",
+      "timestamp": "2025-06-13T19:23:14.745329",
+      "current_price": 230.31,
+      "price_change": -0.03,
+      "price_change_pct": -0.01,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 49,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 63.4,
+        "macd": -1.449,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNA",
+      "name": "Unilever",
+      "timestamp": "2025-06-13T19:23:14.745381",
+      "current_price": 307.92,
+      "price_change": 0.53,
+      "price_change_pct": 0.17,
+      "recommendation": "HOLD",
+      "catalyst_score": 62,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 30.7,
+        "macd": -0.305,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere",
+      "timestamp": "2025-06-13T19:23:14.745465",
+      "current_price": 153.25,
+      "price_change": -0.02,
+      "price_change_pct": -0.02,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 97,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 62.3,
+        "macd": 1.984,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8393189008721612
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PDD",
+      "name": "Pinduoduo",
+      "timestamp": "2025-06-13T19:23:14.745547",
+      "current_price": 224.13,
+      "price_change": 0.02,
+      "price_change_pct": 0.01,
+      "recommendation": "HOLD",
+      "catalyst_score": 65,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 57.3,
+        "macd": -0.107,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.9231336695196656
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "timestamp": "2025-06-13T19:23:14.745634",
+      "current_price": 375.08,
+      "price_change": 2.5,
+      "price_change_pct": 0.67,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 40,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 53.1,
+        "macd": -1.5,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8778331652305678
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SPOT",
+      "name": "Spotify",
+      "timestamp": "2025-06-13T19:23:14.745712",
+      "current_price": 417.15,
+      "price_change": 3.93,
+      "price_change_pct": 0.95,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 54.4,
+        "macd": 1.362,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7100883289982881
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8713035056985894
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher",
+      "timestamp": "2025-06-13T19:23:14.745787",
+      "current_price": 348.93,
+      "price_change": -1.75,
+      "price_change_pct": -0.5,
+      "recommendation": "HOLD",
+      "catalyst_score": 57,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.7,
+        "macd": 0.235,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8450876134965283
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7739173624714126
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ALV",
+      "name": "Allianz",
+      "timestamp": "2025-06-13T19:23:14.745863",
+      "current_price": 409.12,
+      "price_change": 1.81,
+      "price_change_pct": 0.44,
+      "recommendation": "HOLD",
+      "catalyst_score": 64,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 58.1,
+        "macd": 0.324,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7571886667579478
+        },
+        {
+          "type": "doji",
+          "confidence": 0.8286727367247725
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PFE",
+      "name": "Pfizer",
+      "timestamp": "2025-06-13T19:23:14.745938",
+      "current_price": 479.38,
+      "price_change": 4.15,
+      "price_change_pct": 0.87,
+      "recommendation": "SELL",
+      "catalyst_score": 20,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 79.7,
+        "macd": -1.57,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.8122201915240768
+        },
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.7180247936295243
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "timestamp": "2025-06-13T19:23:14.746013",
+      "current_price": 297.46,
+      "price_change": 0.33,
+      "price_change_pct": 0.11,
+      "recommendation": "HOLD",
+      "catalyst_score": 67,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 59.4,
+        "macd": 0.09,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8957079526186689
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.8565986576342102
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific",
+      "timestamp": "2025-06-13T19:23:14.746096",
+      "current_price": 277.19,
+      "price_change": 0.9,
+      "price_change_pct": 0.33,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.7,
+        "macd": 1.133,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7783898765250292
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7421702136215433
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing",
+      "timestamp": "2025-06-13T19:23:14.746172",
+      "current_price": 158.59,
+      "price_change": -3.15,
+      "price_change_pct": -1.95,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 50,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 51.2,
+        "macd": -1.17,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7984933113308965
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "timestamp": "2025-06-13T19:23:14.746246",
+      "current_price": 463.46,
+      "price_change": -1.96,
+      "price_change_pct": -0.42,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.5,
+        "macd": 1.794,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7327498603643421
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MELI",
+      "name": "MercadoLibre",
+      "timestamp": "2025-06-13T19:23:14.746306",
+      "current_price": 196.27,
+      "price_change": -0.39,
+      "price_change_pct": -0.2,
+      "recommendation": "HOLD",
+      "catalyst_score": 55,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 77.6,
+        "macd": 0.038,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "timestamp": "2025-06-13T19:23:14.746379",
+      "current_price": 93.55,
+      "price_change": -4.62,
+      "price_change_pct": -4.71,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 98,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 26.5,
+        "macd": 1.287,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7982174929667629
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "timestamp": "2025-06-13T19:23:14.746455",
+      "current_price": 296.17,
+      "price_change": 1.12,
+      "price_change_pct": 0.38,
+      "recommendation": "SELL",
+      "catalyst_score": 38,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 43.0,
+        "macd": -1.794,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8307122525348447
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9029464140731565
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "timestamp": "2025-06-13T19:23:14.746539",
+      "current_price": 409.6,
+      "price_change": 4.78,
+      "price_change_pct": 1.18,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 35.0,
+        "macd": 1.1,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7831353537224073
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7217955319484541
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "timestamp": "2025-06-13T19:23:14.746625",
+      "current_price": 446.19,
+      "price_change": -2.98,
+      "price_change_pct": -0.66,
+      "recommendation": "BUY",
+      "catalyst_score": 70,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 48.3,
+        "macd": 0.093,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8391716801228682
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.7371723938171636
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AIR",
+      "name": "Airbus",
+      "timestamp": "2025-06-13T19:23:14.746702",
+      "current_price": 142.15,
+      "price_change": -2.74,
+      "price_change_pct": -1.89,
+      "recommendation": "SELL",
+      "catalyst_score": 8,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 76.9,
+        "macd": -1.998,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.8770440862139814
+        },
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.897891129509812
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LOW",
+      "name": "Lowe's",
+      "timestamp": "2025-06-13T19:23:14.746758",
+      "current_price": 402.38,
+      "price_change": -3.66,
+      "price_change_pct": -0.9,
+      "recommendation": "HOLD",
+      "catalyst_score": 56,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 37.2,
+        "macd": -0.395,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "timestamp": "2025-06-13T19:23:14.746814",
+      "current_price": 268.73,
+      "price_change": 1.98,
+      "price_change_pct": 0.74,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 51,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 67.2,
+        "macd": -1.432,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton",
+      "timestamp": "2025-06-13T19:23:14.746889",
+      "current_price": 294.65,
+      "price_change": -1.73,
+      "price_change_pct": -0.58,
+      "recommendation": "HOLD",
+      "catalyst_score": 56,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 51.5,
+        "macd": 0.4,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8311712355935108
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7120457612247842
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BHP",
+      "name": "BHP Billiton",
+      "timestamp": "2025-06-13T19:23:14.746964",
+      "current_price": 396.36,
+      "price_change": -0.89,
+      "price_change_pct": -0.22,
+      "recommendation": "BUY",
+      "catalyst_score": 72,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 83.2,
+        "macd": 1.986,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8806586252828907
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.817418852474058
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SU",
+      "name": "Schneider Electric",
+      "timestamp": "2025-06-13T19:23:14.747020",
+      "current_price": 225.72,
+      "price_change": 1.71,
+      "price_change_pct": 0.77,
+      "recommendation": "BUY",
+      "catalyst_score": 72,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 28.8,
+        "macd": -0.194,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ABI",
+      "name": "Anheuser-Busch InBev",
+      "timestamp": "2025-06-13T19:23:14.747092",
+      "current_price": 148.13,
+      "price_change": -3.08,
+      "price_change_pct": -2.04,
+      "recommendation": "SELL",
+      "catalyst_score": 12,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 72.7,
+        "macd": -1.667,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.9317293127617736
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SNY",
+      "name": "Sanofi",
+      "timestamp": "2025-06-13T19:23:14.747148",
+      "current_price": 220.93,
+      "price_change": -1.51,
+      "price_change_pct": -0.68,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.9,
+        "macd": -0.449,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "IBN",
+      "name": "ICICI Bank",
+      "timestamp": "2025-06-13T19:23:14.747206",
+      "current_price": 398.53,
+      "price_change": -4.63,
+      "price_change_pct": -1.15,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 44,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 67.4,
+        "macd": -1.496,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb",
+      "timestamp": "2025-06-13T19:23:14.747267",
+      "current_price": 85.63,
+      "price_change": -4.36,
+      "price_change_pct": -4.84,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 50,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 66.9,
+        "macd": -1.6,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAN",
+      "name": "Santander Group",
+      "timestamp": "2025-06-13T19:23:14.747340",
+      "current_price": 454.27,
+      "price_change": -2.88,
+      "price_change_pct": -0.63,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 40,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 74.3,
+        "macd": -0.34,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.7951290884815114
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TD",
+      "name": "TD Bank",
+      "timestamp": "2025-06-13T19:23:14.747403",
+      "current_price": 431.08,
+      "price_change": -1.84,
+      "price_change_pct": -0.42,
+      "recommendation": "SELL",
+      "catalyst_score": 39,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 39.8,
+        "macd": -1.036,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike Holdings",
+      "timestamp": "2025-06-13T19:23:14.747478",
+      "current_price": 57.73,
+      "price_change": 4.17,
+      "price_change_pct": 7.78,
+      "recommendation": "BUY",
+      "catalyst_score": 70,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 37.2,
+        "macd": 0.256,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.925069789524642
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ULVR",
+      "name": "Unilever",
+      "timestamp": "2025-06-13T19:23:14.747556",
+      "current_price": 464.86,
+      "price_change": -2.52,
+      "price_change_pct": -0.54,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 45,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 40.0,
+        "macd": -0.939,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7306919977544146
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7152237244689487
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MMC",
+      "name": "Marsh & McLennan",
+      "timestamp": "2025-06-13T19:23:14.747620",
+      "current_price": 370.35,
+      "price_change": 3.77,
+      "price_change_pct": 1.03,
+      "recommendation": "SELL",
+      "catalyst_score": 35,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 69.6,
+        "macd": -1.939,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "timestamp": "2025-06-13T19:23:14.747697",
+      "current_price": 492.4,
+      "price_change": 3.91,
+      "price_change_pct": 0.8,
+      "recommendation": "BUY",
+      "catalyst_score": 71,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 40.0,
+        "macd": -0.091,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8894630395853956
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "timestamp": "2025-06-13T19:23:14.747753",
+      "current_price": 63.45,
+      "price_change": 4.83,
+      "price_change_pct": 8.24,
+      "recommendation": "BUY",
+      "catalyst_score": 78,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 69.5,
+        "macd": 0.625,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LMT",
+      "name": "Lockheed",
+      "timestamp": "2025-06-13T19:23:14.747803",
+      "current_price": 439.63,
+      "price_change": 2.78,
+      "price_change_pct": 0.64,
+      "recommendation": "SELL",
+      "catalyst_score": 36,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 64.5,
+        "macd": -0.592,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EL",
+      "name": "EssilorLuxottica",
+      "timestamp": "2025-06-13T19:23:14.747880",
+      "current_price": 52.95,
+      "price_change": 2.22,
+      "price_change_pct": 4.38,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 88,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 53.4,
+        "macd": 0.776,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.9233888303170992
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9360208809880538
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAF",
+      "name": "Safran",
+      "timestamp": "2025-06-13T19:23:14.747935",
+      "current_price": 463.3,
+      "price_change": 3.69,
+      "price_change_pct": 0.8,
+      "recommendation": "SELL",
+      "catalyst_score": 37,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 38.9,
+        "macd": -1.757,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "timestamp": "2025-06-13T19:23:14.748007",
+      "current_price": 473.78,
+      "price_change": 4.66,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 31.6,
+        "macd": 0.611,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.759027237099134
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "timestamp": "2025-06-13T19:23:14.748080",
+      "current_price": 216.15,
+      "price_change": -4.98,
+      "price_change_pct": -2.25,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.6,
+        "macd": 1.135,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8549728892689149
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR & Co",
+      "timestamp": "2025-06-13T19:23:14.748160",
+      "current_price": 439.87,
+      "price_change": -4.47,
+      "price_change_pct": -1.01,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 34.4,
+        "macd": 0.624,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.9294561808006052
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8533749197454398
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "COP",
+      "name": "ConocoPhillips",
+      "timestamp": "2025-06-13T19:23:14.748257",
+      "current_price": 416.02,
+      "price_change": 1.5,
+      "price_change_pct": 0.36,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 43,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.3,
+        "macd": -0.767,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7958669115406419
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.856844456920644
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BX",
+      "name": "The Blackstone Group",
+      "timestamp": "2025-06-13T19:23:14.748335",
+      "current_price": 445.41,
+      "price_change": 3.82,
+      "price_change_pct": 0.87,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 59.5,
+        "macd": 1.801,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8668841503373108
+        },
+        {
+          "type": "doji",
+          "confidence": 0.7733122320479646
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAN",
+      "name": "Sanofi",
+      "timestamp": "2025-06-13T19:23:14.748408",
+      "current_price": 125.03,
+      "price_change": 1.59,
+      "price_change_pct": 1.29,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.2,
+        "macd": 0.017,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7630655853490456
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MDT",
+      "name": "Medtronic",
+      "timestamp": "2025-06-13T19:23:14.748463",
+      "current_price": 321.32,
+      "price_change": 0.3,
+      "price_change_pct": 0.09,
+      "recommendation": "SELL",
+      "catalyst_score": 36,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 30.3,
+        "macd": -1.886,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "timestamp": "2025-06-13T19:23:14.748534",
+      "current_price": 125.41,
+      "price_change": 0.11,
+      "price_change_pct": 0.09,
+      "recommendation": "BUY",
+      "catalyst_score": 84,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 62.3,
+        "macd": 1.723,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bull_flag",
+          "confidence": 0.7481952430957501
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "timestamp": "2025-06-13T19:23:14.748622",
+      "current_price": 317.82,
+      "price_change": 0.49,
+      "price_change_pct": 0.15,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.5,
+        "macd": 0.665,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7728906176816642
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7527723417016791
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AI",
+      "name": "Air Liquide",
+      "timestamp": "2025-06-13T19:23:14.748698",
+      "current_price": 165.32,
+      "price_change": 1.9,
+      "price_change_pct": 1.16,
+      "recommendation": "BUY",
+      "catalyst_score": 77,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 75.6,
+        "macd": 1.496,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bull_flag",
+          "confidence": 0.833008813173959
+        },
+        {
+          "type": "breakout",
+          "confidence": 0.7405718707853384
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SAN",
+      "name": "Banco Santander",
+      "timestamp": "2025-06-13T19:23:14.748754",
+      "current_price": 441.56,
+      "price_change": 0.85,
+      "price_change_pct": 0.19,
+      "recommendation": "BUY",
+      "catalyst_score": 73,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 60.9,
+        "macd": 0.161,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CME",
+      "name": "CME Group",
+      "timestamp": "2025-06-13T19:23:14.748831",
+      "current_price": 241.09,
+      "price_change": -0.49,
+      "price_change_pct": -0.2,
+      "recommendation": "BUY",
+      "catalyst_score": 70,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 46.2,
+        "macd": -0.354,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8285348313940106
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "timestamp": "2025-06-13T19:23:14.748910",
+      "current_price": 279.23,
+      "price_change": 3.73,
+      "price_change_pct": 1.35,
+      "recommendation": "SELL",
+      "catalyst_score": 13,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 71.8,
+        "macd": -1.488,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.8853627163164368
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange",
+      "timestamp": "2025-06-13T19:23:14.748984",
+      "current_price": 134.17,
+      "price_change": -2.1,
+      "price_change_pct": -1.54,
+      "recommendation": "SELL",
+      "catalyst_score": 13,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 73.5,
+        "macd": -0.886,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.7967891511609053
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PRX",
+      "name": "Prosus",
+      "timestamp": "2025-06-13T19:23:14.749066",
+      "current_price": 222.52,
+      "price_change": 2.02,
+      "price_change_pct": 0.92,
+      "recommendation": "HOLD",
+      "catalyst_score": 60,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 43.1,
+        "macd": -0.252,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.70113946242207
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria",
+      "timestamp": "2025-06-13T19:23:14.749121",
+      "current_price": 485.08,
+      "price_change": 1.69,
+      "price_change_pct": 0.35,
+      "recommendation": "BUY",
+      "catalyst_score": 71,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 66.9,
+        "macd": -0.226,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ENB",
+      "name": "Enbridge",
+      "timestamp": "2025-06-13T19:23:14.749198",
+      "current_price": 202.08,
+      "price_change": 0.43,
+      "price_change_pct": 0.21,
+      "recommendation": "HOLD",
+      "catalyst_score": 68,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 82.3,
+        "macd": 1.739,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bull_flag",
+          "confidence": 0.800294646334504
+        },
+        {
+          "type": "breakout",
+          "confidence": 0.8859002620534232
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RIO",
+      "name": "Rio Tinto",
+      "timestamp": "2025-06-13T19:23:14.749254",
+      "current_price": 221.74,
+      "price_change": 2.53,
+      "price_change_pct": 1.15,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 42,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 36.7,
+        "macd": -1.565,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "MicroStrategy",
+      "timestamp": "2025-06-13T19:23:14.749324",
+      "current_price": 373.92,
+      "price_change": 0.55,
+      "price_change_pct": 0.15,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 42,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.5,
+        "macd": -1.907,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7205581000101214
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WELL",
+      "name": "Welltower",
+      "timestamp": "2025-06-13T19:23:14.749399",
+      "current_price": 371.31,
+      "price_change": -0.1,
+      "price_change_pct": -0.03,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 53,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 44.6,
+        "macd": -0.959,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7857216281948112
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.9344857861436098
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "timestamp": "2025-06-13T19:23:14.749453",
+      "current_price": 99.49,
+      "price_change": -1.28,
+      "price_change_pct": -1.27,
+      "recommendation": "HOLD",
+      "catalyst_score": 61,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 37.4,
+        "macd": -0.407,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "IBE",
+      "name": "Iberdrola",
+      "timestamp": "2025-06-13T19:23:14.749506",
+      "current_price": 439.97,
+      "price_change": -2.4,
+      "price_change_pct": -0.54,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 47,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 66.3,
+        "macd": -0.737,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "timestamp": "2025-06-13T19:23:14.749592",
+      "current_price": 233.04,
+      "price_change": 1.76,
+      "price_change_pct": 0.76,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 91,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 69.1,
+        "macd": 1.929,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.7557607668096997
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.7577130447009502
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA",
+      "timestamp": "2025-06-13T19:23:14.749671",
+      "current_price": 321.1,
+      "price_change": 3.01,
+      "price_change_pct": 0.95,
+      "recommendation": "SELL",
+      "catalyst_score": 0,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 82.6,
+        "macd": -1.035,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "shooting_star",
+          "confidence": 0.7219657382492219
+        },
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.9347712776725313
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SMFG",
+      "name": "Sumitomo Mitsui Financial",
+      "timestamp": "2025-06-13T19:23:14.749751",
+      "current_price": 73.29,
+      "price_change": 4.82,
+      "price_change_pct": 7.04,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 94,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 27.1,
+        "macd": 0.18,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.720497088422553
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7507947152629955
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern",
+      "timestamp": "2025-06-13T19:23:14.749806",
+      "current_price": 265.11,
+      "price_change": -1.39,
+      "price_change_pct": -0.52,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 49,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 29.8,
+        "macd": -1.483,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RELX",
+      "name": "RELX",
+      "timestamp": "2025-06-13T19:23:14.749881",
+      "current_price": 373.07,
+      "price_change": -1.89,
+      "price_change_pct": -0.5,
+      "recommendation": "HOLD",
+      "catalyst_score": 62,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 45.8,
+        "macd": -0.433,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.7165594196930564
+        },
+        {
+          "type": "doji",
+          "confidence": 0.733159998535214
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BTI",
+      "name": "British American Tobacco",
+      "timestamp": "2025-06-13T19:23:14.749957",
+      "current_price": 88.17,
+      "price_change": 4.75,
+      "price_change_pct": 5.69,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 32.9,
+        "macd": 1.156,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.717977649226991
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7668851103347596
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "timestamp": "2025-06-13T19:23:14.750012",
+      "current_price": 340.03,
+      "price_change": 1.64,
+      "price_change_pct": 0.48,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 52,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 75.5,
+        "macd": 0.21,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UBS",
+      "name": "UBS",
+      "timestamp": "2025-06-13T19:23:14.750063",
+      "current_price": 234.7,
+      "price_change": -2.94,
+      "price_change_pct": -1.24,
+      "recommendation": "HOLD",
+      "catalyst_score": 68,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 39.7,
+        "macd": -0.3,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "timestamp": "2025-06-13T19:23:14.750134",
+      "current_price": 414.42,
+      "price_change": -1.3,
+      "price_change_pct": -0.31,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 93,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 67.1,
+        "macd": 1.916,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8437573428943533
+        },
+        {
+          "type": "bull_flag",
+          "confidence": 0.9487861446234449
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "timestamp": "2025-06-13T19:23:14.750209",
+      "current_price": 157.84,
+      "price_change": -3.76,
+      "price_change_pct": -2.32,
+      "recommendation": "SELL",
+      "catalyst_score": 26,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 82.0,
+        "macd": 0.125,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "double_top",
+          "confidence": 0.7496104998615485
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy Corporation",
+      "timestamp": "2025-06-13T19:23:14.750268",
+      "current_price": 296.5,
+      "price_change": 2.44,
+      "price_change_pct": 0.83,
+      "recommendation": "HOLD",
+      "catalyst_score": 65,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 74.8,
+        "macd": 0.706,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "Starbucks",
+      "timestamp": "2025-06-13T19:23:14.750319",
+      "current_price": 197.09,
+      "price_change": 1.56,
+      "price_change_pct": 0.8,
+      "recommendation": "HOLD",
+      "catalyst_score": 59,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 77.7,
+        "macd": 0.215,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SE",
+      "name": "Sea Limited",
+      "timestamp": "2025-06-13T19:23:14.750391",
+      "current_price": 160.73,
+      "price_change": 2.88,
+      "price_change_pct": 1.82,
+      "recommendation": "HOLD",
+      "catalyst_score": 63,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 46.5,
+        "macd": -0.316,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8806412992222405
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BAM",
+      "name": "Brookfield Asset Management",
+      "timestamp": "2025-06-13T19:23:14.750469",
+      "current_price": 299.31,
+      "price_change": -0.69,
+      "price_change_pct": -0.23,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 25.7,
+        "macd": 1.634,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8260696762961515
+        },
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.9200804942381934
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "timestamp": "2025-06-13T19:23:14.750544",
+      "current_price": 134.08,
+      "price_change": 4.99,
+      "price_change_pct": 3.86,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 36.4,
+        "macd": 0.449,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.8505542077399741
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy",
+      "timestamp": "2025-06-13T19:23:14.750612",
+      "current_price": 52.93,
+      "price_change": -4.25,
+      "price_change_pct": -7.43,
+      "recommendation": "HOLD",
+      "catalyst_score": 62,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 36.3,
+        "macd": -0.462,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CTAS",
+      "name": "Cintas",
+      "timestamp": "2025-06-13T19:23:14.750666",
+      "current_price": 91.76,
+      "price_change": -3.44,
+      "price_change_pct": -3.62,
+      "recommendation": "SELL",
+      "catalyst_score": 38,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 32.6,
+        "macd": -0.518,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CS",
+      "name": "AXA",
+      "timestamp": "2025-06-13T19:23:14.750747",
+      "current_price": 70.23,
+      "price_change": -3.09,
+      "price_change_pct": -4.22,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 46.9,
+        "macd": 1.519,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.8012529354108202
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "FI",
+      "name": "Fiserv",
+      "timestamp": "2025-06-13T19:23:14.750831",
+      "current_price": 206.87,
+      "price_change": 2.11,
+      "price_change_pct": 1.03,
+      "recommendation": "SELL",
+      "catalyst_score": 16,
+      "sentiment": "Negative",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 83.4,
+        "macd": -0.354,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "bearish_engulfing",
+          "confidence": 0.9425333104824509
+        },
+        {
+          "type": "shooting_star",
+          "confidence": 0.895739150735282
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCK",
+      "name": "McKesson",
+      "timestamp": "2025-06-13T19:23:14.750906",
+      "current_price": 188.71,
+      "price_change": -4.11,
+      "price_change_pct": -2.13,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 90,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.2,
+        "macd": 0.163,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.8932590585409925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "timestamp": "2025-06-13T19:23:14.750966",
+      "current_price": 256.71,
+      "price_change": 0.66,
+      "price_change_pct": 0.26,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 52,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 66.4,
+        "macd": -0.507,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike",
+      "timestamp": "2025-06-13T19:23:14.751018",
+      "current_price": 78.08,
+      "price_change": -4.13,
+      "price_change_pct": -5.03,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 92,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 61.2,
+        "macd": 0.582,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TRI",
+      "name": "Thomson Reuters",
+      "timestamp": "2025-06-13T19:23:14.751095",
+      "current_price": 206.96,
+      "price_change": 1.47,
+      "price_change_pct": 0.72,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 54,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 56.8,
+        "macd": -0.875,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7681715129880906
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.8851906928680207
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "AJG",
+      "name": "Arthur J. Gallagher",
+      "timestamp": "2025-06-13T19:23:14.751169",
+      "current_price": 485.37,
+      "price_change": -1.03,
+      "price_change_pct": -0.21,
+      "recommendation": "BUY",
+      "catalyst_score": 83,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 56.6,
+        "macd": 0.682,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8167144819065475
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BN",
+      "name": "Brookfield Corporation",
+      "timestamp": "2025-06-13T19:23:14.751224",
+      "current_price": 420.04,
+      "price_change": -3.64,
+      "price_change_pct": -0.86,
+      "recommendation": "HOLD",
+      "catalyst_score": 61,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 67.4,
+        "macd": 0.392,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "timestamp": "2025-06-13T19:23:14.751275",
+      "current_price": 183.92,
+      "price_change": 2.06,
+      "price_change_pct": 1.13,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 41,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 33.7,
+        "macd": -0.939,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MDLZ",
+      "name": "Mondelez",
+      "timestamp": "2025-06-13T19:23:14.751346",
+      "current_price": 313.11,
+      "price_change": -4.4,
+      "price_change_pct": -1.39,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 51,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 46.7,
+        "macd": -1.091,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7474067235599293
+        },
+        {
+          "type": "triangle",
+          "confidence": 0.940354131561863
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "timestamp": "2025-06-13T19:23:14.751420",
+      "current_price": 259.81,
+      "price_change": 2.25,
+      "price_change_pct": 0.88,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 29.5,
+        "macd": 1.839,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7546511931071925
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BNP",
+      "name": "BNP Paribas",
+      "timestamp": "2025-06-13T19:23:14.751475",
+      "current_price": 158.92,
+      "price_change": 0.52,
+      "price_change_pct": 0.33,
+      "recommendation": "SELL",
+      "catalyst_score": 39,
+      "sentiment": "Negative",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 38.1,
+        "macd": -1.368,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "ELV",
+      "name": "Elevance Health",
+      "timestamp": "2025-06-13T19:23:14.751546",
+      "current_price": 452.27,
+      "price_change": -1.19,
+      "price_change_pct": -0.26,
+      "recommendation": "HOLD",
+      "catalyst_score": 67,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 47.5,
+        "macd": -0.487,
+        "macd_signal": "bearish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.905772163036854
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "BBVA",
+      "name": "Banco Bilbao Vizcaya Argentaria",
+      "timestamp": "2025-06-13T19:23:14.751637",
+      "current_price": 185.25,
+      "price_change": 4.13,
+      "price_change_pct": 2.28,
+      "recommendation": "BUY",
+      "catalyst_score": 82,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 32.5,
+        "macd": 0.358,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "hammer",
+          "confidence": 0.7439074885344927
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's",
+      "timestamp": "2025-06-13T19:23:14.751712",
+      "current_price": 321.06,
+      "price_change": 3.15,
+      "price_change_pct": 0.99,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 33.0,
+        "macd": 1.157,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.849828470006091
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RHM",
+      "name": "Rheinmetall",
+      "timestamp": "2025-06-13T19:23:14.751785",
+      "current_price": 334.03,
+      "price_change": 0.65,
+      "price_change_pct": 0.2,
+      "recommendation": "BUY",
+      "catalyst_score": 80,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 49.3,
+        "macd": 1.535,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "doji",
+          "confidence": 0.7385749240674662
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "timestamp": "2025-06-13T19:23:14.751839",
+      "current_price": 376.19,
+      "price_change": 3.4,
+      "price_change_pct": 0.91,
+      "recommendation": "HOLD",
+      "catalyst_score": 66,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 29.9,
+        "macd": -0.196,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RACE",
+      "name": "Ferrari",
+      "timestamp": "2025-06-13T19:23:14.751914",
+      "current_price": 395.28,
+      "price_change": 2.25,
+      "price_change_pct": 0.57,
+      "recommendation": "HOLD",
+      "catalyst_score": 65,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 57.4,
+        "macd": 0.493,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.8694306356078219
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker-Hannifin",
+      "timestamp": "2025-06-13T19:23:14.751993",
+      "current_price": 366.18,
+      "price_change": 1.08,
+      "price_change_pct": 0.29,
+      "recommendation": "BUY",
+      "catalyst_score": 74,
+      "sentiment": "Positive",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 72.0,
+        "macd": 1.546,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8084444332573647
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna Group",
+      "timestamp": "2025-06-13T19:23:14.752065",
+      "current_price": 374.72,
+      "price_change": -2.52,
+      "price_change_pct": -0.67,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 87,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 48.0,
+        "macd": 1.75,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "triangle",
+          "confidence": 0.830203835189718
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "UPS",
+      "name": "UPS",
+      "timestamp": "2025-06-13T19:23:14.752120",
+      "current_price": 361.28,
+      "price_change": -0.56,
+      "price_change_pct": -0.15,
+      "recommendation": "HOLD",
+      "catalyst_score": 63,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 72.7,
+        "macd": 0.792,
+        "macd_signal": "bullish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm",
+      "timestamp": "2025-06-13T19:23:14.752203",
+      "current_price": 277.98,
+      "price_change": 1.59,
+      "price_change_pct": 0.58,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 100,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 28.7,
+        "macd": 0.95,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "bullish_engulfing",
+          "confidence": 0.7704189051257118
+        },
+        {
+          "type": "hammer",
+          "confidence": 0.7846673760978482
+        }
+      ],
+      "sector": "Other"
+    },
+    {
+      "symbol": "GSK",
+      "name": "GSK",
+      "timestamp": "2025-06-13T19:23:14.752267",
+      "current_price": 199.92,
+      "price_change": 4.46,
+      "price_change_pct": 2.28,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 53,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 36.2,
+        "macd": -1.407,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS",
+      "timestamp": "2025-06-13T19:23:14.752321",
+      "current_price": 484.31,
+      "price_change": 3.9,
+      "price_change_pct": 0.81,
+      "recommendation": "WEAK_HOLD",
+      "catalyst_score": 51,
+      "sentiment": "Neutral",
+      "confidence": "medium",
+      "technical_indicators": {
+        "rsi": 35.5,
+        "macd": -1.144,
+        "macd_signal": "bearish"
+      },
+      "patterns": [],
+      "sector": "Other"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "timestamp": "2025-06-13T19:23:14.752393",
+      "current_price": 272.37,
+      "price_change": -4.21,
+      "price_change_pct": -1.52,
+      "recommendation": "STRONG_BUY",
+      "catalyst_score": 89,
+      "sentiment": "Positive",
+      "confidence": "high",
+      "technical_indicators": {
+        "rsi": 66.6,
+        "macd": 1.385,
+        "macd_signal": "bullish"
+      },
+      "patterns": [
+        {
+          "type": "breakout",
+          "confidence": 0.8774359086009375
+        }
+      ],
+      "sector": "Other"
+    }
+  ]
+}
